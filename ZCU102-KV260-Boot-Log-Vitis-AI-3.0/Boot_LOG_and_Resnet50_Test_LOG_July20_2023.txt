@@ -1,0 +1,1688 @@
+
+
+                                                                                                                                                                                           s for eth0 is updated to 00:0a:35:0c:27:ba
+[    5.980003] usb 1-1.5: New USB device found, idVendor=0424, idProduct=2740, b                                                                                                                                                                                             cdDevice= 2.00
+[    5.991358] usb 1-1.5: New USB device strings: Mfr=1, Product=2, SerialNumber                                                                                                                                                                                             =0
+[    5.998674] usb 1-1.5: Product: Hub Controller
+[    6.003116] usb 1-1.5: Manufacturer: Microchip Tech
+[    6.461532] mmc1: new high speed SDHC card at address 1388
+[    6.467489] mmcblk1: mmc1:1388 USD00 29.5 GiB
+[    6.473386]  mmcblk1: p1 p2
+
+
+root: recovering journal
+root: clean, 106619/3817536 files, 3054048/7724675 blocks
+[    7.872479] EXT4-fs (mmcblk1p2): mounted filesystem with ordered data mode. O                                                                                                                                                                                             pts: (null). Quota mode: none.
+
+[    8.820166] systemd[1]: System time before build time, advancing clock.
+[    8.867034] systemd[1]: systemd 249.7+ running in system mode (+PAM -AUDIT -SELINUX -APPARMOR +IMA -SMACK +SECCOMP -GCRYPT -GNUTLS -OPENSSL +ACL +BLKID -CURL -ELFUTILS -FIDO2 -IDN2 -IDN -IPTC +KMOD -LIBCRYPTSETUP +LIBFDISK -PCRE2 -PWQUALITY -P11KIT -QRENCODE -BZIP2 -LZ4 -XZ -ZLIB +ZSTD +XKBCOMMON +UTMP +SYSVINIT default-hierarchy=hybrid)
+[    8.897299] systemd[1]: Detected architecture arm64.
+
+Welcome to PetaLinux 2022.2_release_S10071807 (honister)!
+
+[    8.948075] systemd[1]: Hostname set to <xilinx-kv260-starterkit-20222>.
+[    9.115510] systemd-sysv-generator[424]: SysV service '/etc/init.d/umountnfs.sh' lacks a native systemd unit file. Automatically generating a unit file for compatibility. Please update package to include a native systemd unit file, in order to make it more safe and robust.
+[    9.118495] systemd-fstab-generator[416]: Failed to create unit file /run/systemd/generator/boot.mount, as it already exists. Duplicate entry in /etc/fstab?
+[    9.153252] systemd-sysv-generator[424]: SysV service '/etc/init.d/save-rtc.sh' lacks a native systemd unit file. Automatically generating a unit file for compatibility. Please update package to include a native systemd unit file, in order to make it more safe and robust.
+[    9.177978] systemd[414]: /lib/systemd/system-generators/systemd-fstab-generator failed with exit status 1.
+[    9.179534] systemd-sysv-generator[424]: SysV service '/etc/init.d/umountfs' lacks a native systemd unit file. Automatically generating a unit file for compatibility. Please update package to include a native systemd unit file, in order to make it more safe and robust.
+[    9.212361] systemd-sysv-generator[424]: SysV service '/etc/init.d/reboot' lacks a native systemd unit file. Automatically generating a unit file for compatibility. Please update package to include a native systemd unit file, in order to make it more safe and robust.
+[    9.236706] systemd-sysv-generator[424]: SysV service '/etc/init.d/sendsigs' lacks a native systemd unit file. Automatically generating a unit file for compatibility. Please update package to include a native systemd unit file, in order to make it more safe and robust.
+[    9.263711] systemd-sysv-generator[424]: SysV service '/etc/init.d/dropbear' lacks a native systemd unit file. Automatically generating a unit file for compatibility. Please update package to include a native systemd unit file, in order to make it more safe and robust.
+[    9.288158] systemd-sysv-generator[424]: SysV service '/etc/init.d/dpu-auto-config' lacks a native systemd unit file. Automatically generating a unit file for compatibility. Please update package to include a native systemd unit file, in order to make it more safe and robust.
+[    9.313382] systemd-sysv-generator[424]: SysV service '/etc/init.d/single' lacks a native systemd unit file. Automatically generating a unit file for compatibility. Please update package to include a native systemd unit file, in order to make it more safe and robust.
+[    9.337636] systemd-sysv-generator[424]: SysV service '/etc/init.d/halt' lacks a native systemd unit file. Automatically generating a unit file for compatibility. Please update package to include a native systemd unit file, in order to make it more safe and robust.
+[    9.361192] systemd-sysv-generator[424]: SysV service '/etc/init.d/fuse' lacks a native systemd unit file. Automatically generating a unit file for compatibility. Please update package to include a native systemd unit file, in order to make it more safe and robust.
+[    9.384980] systemd-sysv-generator[424]: SysV service '/etc/init.d/inetd.busybox' lacks a native systemd unit file. Automatically generating a unit file for compatibility. Please update package to include a native systemd unit file, in order to make it more safe and robust.
+[    9.410434] systemd-sysv-generator[424]: SysV service '/etc/init.d/urandom' lacks a native systemd unit file. Automatically generating a unit file for compatibility. Please update package to include a native systemd unit file, in order to make it more safe and robust.
+[    9.437716] systemd-sysv-generator[424]: SysV service '/etc/init.d/watchdog-init' lacks a native systemd unit file. Automatically generating a unit file for compatibility. Please update package to include a native systemd unit file, in order to make it more safe and robust.
+[    9.916620] systemd[1]: Queued start job for default target Graphical Interface.
+[    9.924964] random: systemd: uninitialized urandom read (16 bytes read)
+[    9.960842] systemd[1]: Created slice Slice /system/getty.
+[  OK  ] Created slice Slice /system/getty.
+[    9.983418] random: systemd: uninitialized urandom read (16 bytes read)
+[    9.991303] systemd[1]: Created slice Slice /system/modprobe.
+[  OK  ] Created slice Slice /system/modprobe.
+[   10.011372] random: systemd: uninitialized urandom read (16 bytes read)
+[   10.019185] systemd[1]: Created slice Slice /system/serial-getty.
+[  OK  ] Created slice Slice /system/serial-getty.
+[   10.040394] systemd[1]: Created slice User and Session Slice.
+[  OK  ] Created slice User and Session Slice.
+[   10.063559] systemd[1]: Started Dispatch Password Requests to Console Directory Watch.
+[  OK  ] Started Dispatch Password …ts to Console Directory Watch.
+[   10.087482] systemd[1]: Started Forward Password Requests to Wall Directory Watch.
+[  OK  ] Started Forward Password R…uests to Wall Directory Watch.
+[   10.111635] systemd[1]: Reached target Path Units.
+[  OK  ] Reached target Path Units.
+[   10.127393] systemd[1]: Reached target Remote File Systems.
+[  OK  ] Reached target Remote File Systems.
+[   10.147381] systemd[1]: Reached target Slice Units.
+[  OK  ] Reached target Slice Units.
+[   10.163410] systemd[1]: Reached target Swaps.
+[  OK  ] Reached target Swaps.
+[   10.179892] systemd[1]: Listening on RPCbind Server Activation Socket.
+[  OK  ] Listening on RPCbind Server Activation Socket.
+[   10.203385] systemd[1]: Reached target RPC Port Mapper.
+[  OK  ] Reached target RPC Port Mapper.
+[   10.223632] systemd[1]: Listening on Syslog Socket.
+[  OK  ] Listening on Syslog Socket.
+[   10.239513] systemd[1]: Listening on initctl Compatibility Named Pipe.
+[  OK  ] Listening on initctl Compatibility Named Pipe.
+[   10.263839] systemd[1]: Listening on Journal Audit Socket.
+[  OK  ] Listening on Journal Audit Socket.
+[   10.283589] systemd[1]: Listening on Journal Socket (/dev/log).
+[  OK  ] Listening on Journal Socket (/dev/log).
+[   10.303670] systemd[1]: Listening on Journal Socket.
+[  OK  ] Listening on Journal Socket.
+[   10.319816] systemd[1]: Listening on Network Service Netlink Socket.
+[  OK  ] Listening on Network Service Netlink Socket.
+[   10.343695] systemd[1]: Listening on udev Control Socket.
+[  OK  ] Listening on udev Control Socket.
+[   10.363569] systemd[1]: Listening on udev Kernel Socket.
+[  OK  ] Listening on udev Kernel Socket.
+[   10.383598] systemd[1]: Listening on User Database Manager Socket.
+[  OK  ] Listening on User Database Manager Socket.
+[   10.409871] systemd[1]: Mounting Huge Pages File System...
+         Mounting Huge Pages File System...
+[   10.429894] systemd[1]: Mounting POSIX Message Queue File System...
+         Mounting POSIX Message Queue File System...
+[   10.454004] systemd[1]: Mounting Kernel Debug File System...
+         Mounting Kernel Debug File System...
+[   10.473951] systemd[1]: Mounting Kernel Trace File System...
+         Mounting Kernel Trace File System...
+[   10.498755] systemd[1]: Mounting Temporary Directory /tmp...
+         Mounting Temporary Directory /tmp...
+[   10.516990] systemd[1]: Condition check resulted in Create List of Static Device Nodes being skipped.
+[   10.529481] systemd[1]: Starting Load Kernel Module configfs...
+         Starting Load Kernel Module configfs...
+[   10.554293] systemd[1]: Starting Load Kernel Module drm...
+         Starting Load Kernel Module drm...
+[   10.578283] systemd[1]: Starting Load Kernel Module fuse...
+         Starting Load Kernel Module fuse...
+[   10.602363] systemd[1]: Starting RPC Bind...
+         Starting RPC Bind...
+[   10.615544] systemd[1]: Condition check resulted in File System Check on Root Device being skipped.
+[   10.634656] systemd[1]: Starting Load Kernel Modules...
+         Starting Load Kernel Modules...
+[   10.654210] systemd[1]: Starting Remount Root and Kernel File Systems...
+         Starting Remount Root and Kernel File Systems...
+[   10.678341] systemd[1]: Starting Coldplug All udev Devices...
+         Starting Coldplug All udev Devices...
+[   10.690969] EXT4-fs (mmcblk1p2): re-mounted. Opts: (null). Quota mode: none.
+[   10.698174] dmaproxy: loading out-of-tree module taints kernel.
+[   10.713022] systemd[1]: Mounted Huge Pages File System.
+[  OK  ] Mounted Huge Pages File System.
+[   10.735898] systemd[1]: Mounted POSIX Message Queue File System.
+[  OK  ] Mounted POSIX Message Queue File System.
+[   10.759738] systemd[1]: Started RPC Bind.
+[  OK  ] Started RPC Bind.
+[   10.775720] systemd[1]: Mounted Kernel Debug File System.
+[  OK  ] Mounted Kernel Debug File System.
+[   10.795635] systemd[1]: Mounted Kernel Trace File System.
+[  OK  ] Mounted Kernel Trace File System.
+[   10.815777] systemd[1]: Mounted Temporary Directory /tmp.
+[  OK  ] Mounted Temporary Directory /tmp.
+[   10.840318] systemd[1]: modprobe@configfs.service: Deactivated successfully.
+[   10.848814] systemd[1]: Finished Load Kernel Module configfs.
+[  OK  ] Finished Load Kernel Module configfs.
+[   10.876411] systemd[1]: modprobe@drm.service: Deactivated successfully.
+[   10.884367] systemd[1]: Finished Load Kernel Module drm.
+[  OK  ] Finished Load Kernel Module drm.
+[   10.908412] systemd[1]: modprobe@fuse.service: Deactivated successfully.
+[   10.916693] systemd[1]: Finished Load Kernel Module fuse.
+[  OK  ] Finished Load Kernel Module fuse.
+[   10.941165] systemd[1]: Finished Load Kernel Modules.
+[  OK  ] Finished Load Kernel Modules.
+[   10.956817] systemd[1]: Finished Remount Root and Kernel File Systems.
+[  OK  ] Finished Remount Root and Kernel File Systems.
+[   10.984033] systemd[1]: Mounting NFSD configuration filesystem...
+         Mounting NFSD configuration filesystem...
+[   10.999849] systemd[1]: Condition check resulted in FUSE Control File System being skipped.
+[   11.011060] systemd[1]: Mounting Kernel Configuration File System...
+         Mounting Kernel Configuration File System...
+[   11.039042] systemd[1]: Condition check resulted in Rebuild Hardware Database being skipped.
+[   11.047768] systemd[1]: Condition check resulted in Platform Persistent Storage Archival being skipped.
+[   11.060214] systemd[1]: Starting Apply Kernel Variables...
+         Starting Apply Kernel Variables...
+         Starting Create Static Device Nodes in /dev...
+[   11.103406] systemd[1]: Failed to mount NFSD configuration filesystem.
+[FAILED] Failed to mount NFSD configuration filesystem.
+See 'systemctl status proc-fs-nfsd.mount' for details.
+[DEPEND] Dependency failed for NFS Mount Daemon.
+[DEPEND] Dependency failed for NFS server and services.
+[  OK  ] Mounted Kernel Configuration File System.
+[  OK  ] Finished Apply Kernel Variables.
+[  OK  ] Finished Create Static Device Nodes in /dev.
+[  OK  ] Reached target Preparation for Local File Systems.
+         Mounting /var/volatile...
+[  OK  ] Started Entropy Daemon based on the HAVEGE algorithm.
+         Starting Journal Service...
+         Starting Rule-based Manage…for Device Events and Files...
+[  OK  ] Mounted /var/volatile.
+         Starting Load/Save Random Seed...
+[  OK  ] Finished Coldplug All udev Devices.
+[  OK  ] Started Journal Service.
+         Starting Flush Journal to Persistent Storage...
+[  OK  ] Finished Flush Journal to Persistent Storage.
+[  OK  ] Started Rule-based Manager for Device Events and Files.
+[  OK  ] Finished Load/Save Random Seed.
+[  OK  ] Found device /dev/disk/by-label/boot.
+[  OK  ] Listening on Load/Save RF …itch Status /dev/rfkill Watch.
+         Mounting /boot...
+         Mounting NFSD configuration filesystem...
+         Starting Load Kernel Module fuse...
+[  OK  ] Mounted /boot.
+[FAILED] Failed to mount NFSD configuration filesystem.
+See 'systemctl status proc-fs-nfsd.mount' for details.
+[  OK  ] Finished Load Kernel Module fuse.
+[  OK  ] Reached target Local File Systems.
+         Starting Create Volatile Files and Directories...
+[  OK  ] Finished Create Volatile Files and Directories.
+         Starting Network Time Synchronization...
+         Starting Record System Boot/Shutdown in UTMP...
+[  OK  ] Finished Record System Boot/Shutdown in UTMP.
+[  OK  ] Started Network Time Synchronization.
+[  OK  ] Reached target System Initialization.
+[  OK  ] Started Daily Cleanup of Temporary Directories.
+[  OK  ] Reached target System Time Set.
+[  OK  ] Started Daily rotation of log files.
+[  OK  ] Reached target Timer Units.
+[  OK  ] Listening on D-Bus System Message Bus Socket.
+[  OK  ] Listening on dropbear.socket.
+[  OK  ] Reached target Socket Units.
+[  OK  ] Reached target Basic System.
+         Starting Save/Restore Sound Card State...
+[  OK  ] Started archconfig.
+[  OK  ] Started Job spooling tools.
+[  OK  ] Started Periodic Command Scheduler.
+[  OK  ] Started D-Bus System Message Bus.
+         Starting dfx-mgrd Dynamic Function eXchange...
+[  OK  ] Started Start fan control, if configured.
+         Starting inetd.busybox.service...
+         Starting IPv6 Packet Filtering Framework...
+         Starting IPv4 Packet Filtering Framework...
+[  OK  ] Started System Logging Service.
+         Starting Resets System Activity Logs...
+         Starting User Login Management...
+[  OK  ] Started Xserver startup without a display manager.
+[  OK  ] Finished Save/Restore Sound Card State.
+[  OK  ] Reached target Sound Card.
+[  OK  ] Started dfx-mgrd Dynamic Function eXchange.
+Jul 14 05:15:12 xilinx-kv260-starterkit-20222 kernel: GIC: Adjusting CPU interface base to 0x00000000f902f000
+Jul 14 05:15:15 xilinx-kv260-starterkit-20222 kernel: armv8-pmu pmu: hw perfevents: no interrupt-affinity property, guessing.
+Jul 14 05:15:15 xilinx-kv260-starterkit-20222 kernel: cacheinfo: Unable to detect cache hierarchy for CPU 0
+Jul 14 05:15:15 xilinx-kv260-starterkit-20222 kernel: mtdoops: mtd device (mtddev=name/number) must be supplied
+Jul 14 05:15:16 xilinx-kv260-starterkit-20222 kernel: zynqmp_pll_disable() clock disable failed for dpll_int, ret = -13
+Jul 14 05:15:16 xilinx-kv260-starterkit-20222 kernel: OF: graph: no port node found in /axi/display@fd4a0000
+Jul 14 05:15:16 xilinx-kv260-starterkit-20222 kernel: mtd: partition "User" extends beyond the end of device "spi0.0" -- size truncated to 0x1d60000
+Jul 14 05:15:17 xilinx-kv260-starterkit-20222 kernel: at24 1-0050: supply vcc not found, using dummy regulator
+Jul 14 05:15:17 xilinx-kv260-starterkit-20222 kernel: at24 1-0051: supply vcc not found, using dummy regulator
+Jul 14 05:15:17 xilinx-kv260-starterkit-20222 kernel: clk: couldn't set sdio1_ref clk rate to 187498123 (-16), current rate: 199999998
+Jul 14 05:15:17 xilinx-kv260-starterkit-20222 last message buffered 1 times
+Jul 14 05:15:17 xilinx-kv260-starterkit-20222 kernel: clk: Not disabling unused clocks
+Jul 14 05:15:22 xilinx-kv260-starterkit-20222 kernel: dmaproxy: loading out-of-tree module taints kernel.
+Jul 14 05:15:25 xilinx-kv260-starterkit-20222 kernel: FAT-fs (mmcblk1p1): Volume was not properly unmounted. Some data may be corrupt. Please run fsck.
+[  OK  ] Finished Resets System Activity Logs.
+[  OK  ] Finished IPv6 Packet Filtering Framework.
+[  OK  ] Finished IPv4 Packet Filtering Framework.
+[  OK  ] Reached target Preparation for Network.
+         Starting Network Configuration...
+[  OK  ] Started inetd.busybox.service.
+         Starting dpu-auto-config.service...
+[  OK  ] Started User Login Management.
+[  OK  ] Started Network Configuration.
+         Starting Wait for Network to be Configured...
+         Starting Network Name Resolution...
+Jul 14 05:15:27 xilinx-kv260-starterkit-20222 kernel: OF: overlay: WARNING: memory leak will occur if overlay removed, property: /fpga-full/firmware-name
+Jul 14 05:15:27 xilinx-kv260-starterkit-20222 kernel: OF: overlay: WARNING: memory leak will occur if overlay removed, property: /fpga-full/fpga-config-from-dmabuf
+Jul 14 05:15:27 xilinx-kv260-starterkit-20222 kernel: OF: overlay: WARNING: memory leak will occur if overlay removed, property: /fpga-full/resets
+Jul 14 05:15:27 xilinx-kv260-starterkit-20222 kernel: OF: overlay: WARNING: memory leak will occur if overlay removed, property: /axi/display@fd4a0000/status
+Jul 14 05:15:27 xilinx-kv260-starterkit-20222 kernel: OF: overlay: WARNING: memory leak will occur if overlay removed, property: /axi/display@fd4a0000/zynqmp_dp_snd_pcm0/status
+Jul 14 05:15:27 xilinx-kv260-starterkit-20222 kernel: OF: overlay: WARNING: memory leak will occur if overlay removed, property: /axi/display@fd4a0000/zynqmp_dp_snd_pcm1/status
+Jul 14 05:15:27 xilinx-kv260-starterkit-20222 kernel: OF: overlay: WARNING: memory leak will occur if overlay removed, property: /axi/display@fd4a0000/zynqmp_dp_snd_card/status
+Jul 14 05:15:27 xilinx-kv260-starterkit-20222 kernel: OF: overlay: WARNING: memory leak will occur if overlay removed, property: /axi/display@fd4a0000/zynqmp_dp_snd_codec0/status
+Jul 14 05:15:27 xilinx-kv260-starterkit-20222 kernel: OF: overlay: WARNING: memory leak will occur if overlay removed, property: /__symbols__/overlay0
+Jul 14 05:15:27 xilinx-kv260-starterkit-20222 kernel: OF: overlay: WARNING: memory leak will occur if overlay removed, property: /__symbols__/overlay1
+Jul 14 05:15:27 xilinx-kv260-starterkit-20222 kernel: OF: overlay: WARNING: memory leak will occur if overlay removed, property: /__symbols__/afi0
+Jul 14 05:15:27 xilinx-kv260-starterkit-20222 kernel: OF: overlay: WARNING: memory leak will occur if overlay removed, property: /__symbols__/clocking0
+Jul 14 05:15:27 xilinx-kv260-starterkit-20222 kernel: OF: overlay: WARNING: memory leak will occur if overlay removed, property: /__symbols__/clocking1
+Jul 14 05:15:27 xilinx-kv260-starterkit-20222 kernel: OF: overlay: WARNING: memory leak will occur if overlay removed, property: /__symbols__/overlay2
+Jul 14 05:15:27 xilinx-kv260-starterkit-20222 kernel: OF: overlay: WARNING: memory leak will occur if overlay removed, property: /__symbols__/overlay11
+Jul 14 05:15:27 xilinx-kv260-starterkit-20222 kernel: OF: overlay: WARNING: memory leak will occur if overlay removed, property: /__symbols__/zocl
+Jul 14 05:15:27 xilinx-kv260-starterkit-20222 kernel: zocl-drm axi:zyxclmm_drm: IRQ index 8 not found
+[  OK  ] Started Network Name Resolution.
+[  OK  ] Reached target Network.
+[  OK  ] Reached target Host and Network Name Lookups.
+         Starting DNS forwarder and DHCP server...
+[  OK  ] Started NFS status monitor for NFSv2/3 locking..
+[  OK  ] Started Respond to IPv6 Node Information Queries.
+         Starting Network Time Service...
+[  OK  ] Started Network Router Discovery Daemon.
+         Starting Permit User Sessions...
+         Starting Target Communication Framework agent...
+[  OK  ] Started Xinetd A Powerful Replacement For Inetd.
+[  OK  ] Finished Permit User Sessions.
+[  OK  ] Started Getty on tty1.
+[  OK  ] Started Serial Getty on ttyPS1.
+[  OK  ] Reached target Login Prompts.
+[  OK  ] Started DNS forwarder and DHCP server.
+[  OK  ] Started Target Communication Framework agent.
+[  OK  ] Started Network Time Service.
+[  OK  ] Started dpu-auto-config.service.
+
+PetaLinux 2022.2_release_S10071807 xilinx-kv260-starterkit-20222 ttyPS1
+
+xilinx-kv260-starterkit-20222 login: root (automatic login)
+
+root@xilinx-kv260-starterkit-20222:~#
+root@xilinx-kv260-starterkit-20222:~#
+root@xilinx-kv260-starterkit-20222:~# ls
+Vitis-AI  dpu_sw_optimize
+root@xilinx-kv260-starterkit-20222:~# cd Vitis-AI/
+root@xilinx-kv260-starterkit-20222:~/Vitis-AI# tree
+.
+|-- cam_py.py
+|-- cam_py.py~
+|-- cats.mp4
+`-- examples
+    |-- custom_operator
+    |   |-- lib
+    |   |   |-- libvart_op_imp_Mylayer.so
+    |   |   `-- libvart_op_imp_PPScatterV2.so
+    |   |-- pytorch_example
+    |   |   |-- deployment
+    |   |   |   |-- cpp
+    |   |   |   |   `-- pointpillars_graph_runner
+    |   |   |   |       |-- CMakeLists.txt
+    |   |   |   |       |-- build.sh
+    |   |   |   |       |-- data
+    |   |   |   |       |   `-- sample_pointpillars.bin
+    |   |   |   |       |-- readme
+    |   |   |   |       `-- src
+    |   |   |   |           |-- anchor.cpp
+    |   |   |   |           |-- anchor.hpp
+    |   |   |   |           |-- helper.cpp
+    |   |   |   |           |-- helper.hpp
+    |   |   |   |           |-- main.cpp
+    |   |   |   |           |-- parse_display_result.cpp
+    |   |   |   |           |-- pointpillars.hpp
+    |   |   |   |           |-- pointpillars_post.cpp
+    |   |   |   |           |-- pointpillars_post.hpp
+    |   |   |   |           |-- preprocess.cpp
+    |   |   |   |           `-- preprocess.hpp
+    |   |   |   `-- python
+    |   |   |       |-- pointpillars_main.py
+    |   |   |       `-- readme
+    |   |   |-- model
+    |   |   |   `-- compiled
+    |   |   |       |-- vck190
+    |   |   |       |   `-- pointpillars_custom_op.xmodel
+    |   |   |       `-- zcu102_zcu104_kv260
+    |   |   |           `-- pointpillars_custom_op.xmodel
+    |   |   `-- op_registration
+    |   |       |-- cpp
+    |   |       |   |-- op_PPScatter
+    |   |       |   |   |-- Makefile
+    |   |       |   |   `-- my_PPScatter_op.cpp
+    |   |       |   `-- op_registration.sh
+    |   |       `-- python
+    |   |           |-- op_registration.sh
+    |   |           `-- vart_op_imp
+    |   |               |-- PPScatterV2.py
+    |   |               `-- __init__.py
+    |   `-- tensorflow2_example
+    |       |-- deployment
+    |       |   |-- cpp
+    |       |   |   |-- build.sh
+    |       |   |   |-- readme
+    |       |   |   |-- tf2_custom_op_graph_runner
+    |       |   |   `-- tf2_custom_op_graph_runner.cpp
+    |       |   `-- python
+    |       |       |-- readme
+    |       |       `-- tf2_custom_op_graph_runner.py
+    |       |-- model
+    |       |   `-- compiled
+    |       |       |-- vck190
+    |       |       |   `-- tf2_custom_op.xmodel
+    |       |       `-- zcu102_zcu104_kv260
+    |       |           `-- tf2_custom_op.xmodel
+    |       `-- op_registration
+    |           |-- cpp
+    |           |   |-- op_Mylayer
+    |           |   |   |-- Makefile
+    |           |   |   `-- my_Mylayer_op.cpp
+    |           |   `-- op_registration.sh
+    |           `-- python
+    |               |-- op_registration.sh
+    |               `-- vart_op_imp
+    |                   |-- Mylayer.py
+    |                   `-- __init__.py
+    |-- vai_library
+    |   |-- apps
+    |   |   |-- multitask_v3_quad_windows
+    |   |   |   |-- build.sh
+    |   |   |   |-- builddrm.sh
+    |   |   |   |-- multitaskv3_quad_windows.cpp
+    |   |   |   |-- multitaskv3_quad_windows_drm
+    |   |   |   |-- multitaskv3_quad_windows_x
+    |   |   |   `-- readme
+    |   |   |-- seg_and_pose_detect
+    |   |   |   |-- build.sh
+    |   |   |   |-- builddrm.sh
+    |   |   |   |-- readme
+    |   |   |   |-- seg_and_pose_detect.cpp
+    |   |   |   |-- seg_and_pose_detect_drm
+    |   |   |   `-- seg_and_pose_detect_x
+    |   |   |-- segs_and_roadline_detect
+    |   |   |   |-- build.sh
+    |   |   |   |-- builddrm.sh
+    |   |   |   |-- readme
+    |   |   |   |-- segs_and_roadline_detect.cpp
+    |   |   |   |-- segs_and_roadline_detect_drm
+    |   |   |   `-- segs_and_roadline_detect_x
+    |   |   |-- vck190_4mipi
+    |   |   |   |-- 4mipi_spnet
+    |   |   |   |-- 4mipi_spnet.cpp
+    |   |   |   |-- build_4mipi_spnet.sh
+    |   |   |   |-- quad_640x360_bgr.sh
+    |   |   |   |-- readme
+    |   |   |   `-- run_4mipi_spnet.sh
+    |   |   `-- vck190_4video
+    |   |       |-- 4video
+    |   |       |-- 4video.cpp
+    |   |       |-- build_4video.sh
+    |   |       |-- readme
+    |   |       `-- run_4video.sh
+    |   |-- samples
+    |   |   |-- 3Dsegmentation
+    |   |   |   |-- build.sh
+    |   |   |   |-- readme
+    |   |   |   |-- test_accuracy_3Dsegmentation
+    |   |   |   |-- test_accuracy_3Dsegmentation.cpp
+    |   |   |   |-- test_jpeg_3Dsegmentation
+    |   |   |   |-- test_jpeg_3Dsegmentation.cpp
+    |   |   |   |-- test_performance_3Dsegmentation
+    |   |   |   `-- test_performance_3Dsegmentation.cpp
+    |   |   |-- RGBDsegmentation
+    |   |   |   |-- build.sh
+    |   |   |   |-- readme
+    |   |   |   |-- rgbd_benchmark.hpp
+    |   |   |   |-- test_accuracy_RGBDsegmentation
+    |   |   |   |-- test_accuracy_RGBDsegmentation.cpp
+    |   |   |   |-- test_jpeg_RGBDsegmentation
+    |   |   |   |-- test_jpeg_RGBDsegmentation.cpp
+    |   |   |   |-- test_performance_RGBDsegmentation
+    |   |   |   `-- test_performance_RGBDsegmentation.cpp
+    |   |   |-- bcc
+    |   |   |   |-- build.sh
+    |   |   |   |-- process_result.hpp
+    |   |   |   |-- readme
+    |   |   |   |-- test_accuracy_bcc
+    |   |   |   |-- test_accuracy_bcc.cpp
+    |   |   |   |-- test_accuracy_bcc_mt
+    |   |   |   |-- test_accuracy_bcc_mt.cpp
+    |   |   |   |-- test_jpeg_bcc
+    |   |   |   |-- test_jpeg_bcc.cpp
+    |   |   |   |-- test_performance_bcc
+    |   |   |   |-- test_performance_bcc.cpp
+    |   |   |   |-- test_video_bcc
+    |   |   |   `-- test_video_bcc.cpp
+    |   |   |-- bevdet
+    |   |   |   |-- bevdet_benchmark.hpp
+    |   |   |   |-- build.sh
+    |   |   |   |-- image_list.hpp
+    |   |   |   |-- process_result.hpp
+    |   |   |   |-- readme
+    |   |   |   |-- stat_samples.hpp
+    |   |   |   |-- test_accuracy_bevdet_mt
+    |   |   |   |-- test_accuracy_bevdet_mt.cpp
+    |   |   |   |-- test_jpeg_bevdet
+    |   |   |   |-- test_jpeg_bevdet.cpp
+    |   |   |   |-- test_performance_bevdet
+    |   |   |   `-- test_performance_bevdet.cpp
+    |   |   |-- c2d2_lite
+    |   |   |   |-- build.sh
+    |   |   |   |-- c2d2_benchmark.hpp
+    |   |   |   |-- readme
+    |   |   |   |-- test_jpeg_c2d2_lite
+    |   |   |   |-- test_jpeg_c2d2_lite.cpp
+    |   |   |   |-- test_performance_c2d2_lite
+    |   |   |   `-- test_performance_c2d2_lite.cpp
+    |   |   |-- centerpoint
+    |   |   |   |-- build.sh
+    |   |   |   |-- readme
+    |   |   |   |-- test_accuracy_centerpoint
+    |   |   |   |-- test_accuracy_centerpoint.cpp
+    |   |   |   |-- test_file_centerpoint
+    |   |   |   |-- test_file_centerpoint.cpp
+    |   |   |   |-- test_performance_centerpoint
+    |   |   |   `-- test_performance_centerpoint.cpp
+    |   |   |-- cflownet
+    |   |   |   |-- build.sh
+    |   |   |   |-- readme
+    |   |   |   |-- test_accuracy_cflownet
+    |   |   |   |-- test_accuracy_cflownet.cpp
+    |   |   |   |-- test_bin_cflownet
+    |   |   |   |-- test_bin_cflownet.cpp
+    |   |   |   |-- test_performance_cflownet
+    |   |   |   `-- test_performance_cflownet.cpp
+    |   |   |-- classification
+    |   |   |   |-- build.sh
+    |   |   |   |-- find_model.hpp
+    |   |   |   |-- process_result.hpp
+    |   |   |   |-- readme
+    |   |   |   |-- test_accuracy_classification
+    |   |   |   |-- test_accuracy_classification.cpp
+    |   |   |   |-- test_accuracy_classification_mt
+    |   |   |   |-- test_accuracy_classification_mt.cpp
+    |   |   |   |-- test_accuracy_classification_squeezenet
+    |   |   |   |-- test_accuracy_classification_squeezenet.cpp
+    |   |   |   |-- test_jpeg_classification
+    |   |   |   |-- test_jpeg_classification.cpp
+    |   |   |   |-- test_jpeg_classification_squeezenet
+    |   |   |   |-- test_jpeg_classification_squeezenet.cpp
+    |   |   |   |-- test_performance_classification
+    |   |   |   |-- test_performance_classification.cpp
+    |   |   |   |-- test_performance_classification_squeezenet
+    |   |   |   |-- test_performance_classification_squeezenet.cpp
+    |   |   |   |-- test_video_classification
+    |   |   |   `-- test_video_classification.cpp
+    |   |   |-- clocs
+    |   |   |   |-- build.sh
+    |   |   |   |-- readme
+    |   |   |   |-- test_accuracy_clocs
+    |   |   |   |-- test_accuracy_clocs.cpp
+    |   |   |   |-- test_bin_clocs
+    |   |   |   |-- test_bin_clocs.cpp
+    |   |   |   |-- test_performance_clocs
+    |   |   |   `-- test_performance_clocs.cpp
+    |   |   |-- covid19segmentation
+    |   |   |   |-- build.sh
+    |   |   |   |-- readme
+    |   |   |   |-- test_accuracy_covid19segmentation
+    |   |   |   |-- test_accuracy_covid19segmentation.cpp
+    |   |   |   |-- test_jpeg_covid19segmentation
+    |   |   |   |-- test_jpeg_covid19segmentation.cpp
+    |   |   |   |-- test_performance_covid19segmentation
+    |   |   |   `-- test_performance_covid19segmentation.cpp
+    |   |   |-- dpu_task
+    |   |   |   |-- fadnet
+    |   |   |   |   |-- Makefile
+    |   |   |   |   |-- build.sh
+    |   |   |   |   |-- demo_fadnet
+    |   |   |   |   |-- demo_fadnet.cpp
+    |   |   |   |   |-- demo_fadnet_v2
+    |   |   |   |   |-- demo_fadnet_v2.cpp
+    |   |   |   |   |-- fadnet.cpp
+    |   |   |   |   |-- fadnet.hpp
+    |   |   |   |   |-- fadnet_v2.cpp
+    |   |   |   |   |-- fadnet_v2.hpp
+    |   |   |   |   |-- psmnet_benchmark.hpp
+    |   |   |   |   |-- readme
+    |   |   |   |   |-- test_performance_fadnet
+    |   |   |   |   |-- test_performance_fadnet.cpp
+    |   |   |   |   |-- test_performance_fadnet_v2
+    |   |   |   |   `-- test_performance_fadnet_v2.cpp
+    |   |   |   |-- hfnet
+    |   |   |   |   |-- Makefile
+    |   |   |   |   |-- build.sh
+    |   |   |   |   |-- cluster.bin
+    |   |   |   |   |-- demo_hfnet
+    |   |   |   |   |-- demo_hfnet.cpp
+    |   |   |   |   |-- hfnet.cpp
+    |   |   |   |   |-- hfnet.hpp
+    |   |   |   |   |-- readme
+    |   |   |   |   |-- test_performance_hfnet
+    |   |   |   |   `-- test_performance_hfnet.cpp
+    |   |   |   |-- psmnet
+    |   |   |   |   |-- Makefile
+    |   |   |   |   |-- build.sh
+    |   |   |   |   |-- build_aie.sh
+    |   |   |   |   |-- cpu_op.cpp
+    |   |   |   |   |-- cpu_op.hpp
+    |   |   |   |   |-- demo_psmnet
+    |   |   |   |   |-- demo_psmnet.cpp
+    |   |   |   |   |-- dpu_resize.cpp
+    |   |   |   |   |-- dpu_resize.hpp
+    |   |   |   |   |-- dpu_sfm.cpp
+    |   |   |   |   |-- dpu_sfm.hpp
+    |   |   |   |   |-- my_xrt_bo.cpp
+    |   |   |   |   |-- my_xrt_bo.hpp
+    |   |   |   |   |-- performance.sh
+    |   |   |   |   |-- psmnet.cpp
+    |   |   |   |   |-- psmnet.hpp
+    |   |   |   |   |-- psmnet_benchmark.hpp
+    |   |   |   |   |-- readme
+    |   |   |   |   |-- test_performance_psmnet
+    |   |   |   |   |-- test_performance_psmnet.cpp
+    |   |   |   |   |-- vai_aie_task_handler.hpp
+    |   |   |   |   `-- vai_graph.hpp
+    |   |   |   |-- ssr
+    |   |   |   |   |-- Makefile
+    |   |   |   |   |-- build.sh
+    |   |   |   |   |-- demo_ssr
+    |   |   |   |   |-- demo_ssr.cpp
+    |   |   |   |   |-- readme
+    |   |   |   |   |-- ssr.cpp
+    |   |   |   |   |-- ssr.hpp
+    |   |   |   |   |-- test_performance_ssr
+    |   |   |   |   `-- test_performance_ssr.cpp
+    |   |   |   |-- superpoint
+    |   |   |   |   |-- Makefile
+    |   |   |   |   |-- build.sh
+    |   |   |   |   |-- demo_superpoint
+    |   |   |   |   |-- demo_superpoint.cpp
+    |   |   |   |   |-- readme
+    |   |   |   |   |-- superpoint.cpp
+    |   |   |   |   |-- superpoint.hpp
+    |   |   |   |   |-- test_performance_superpoint
+    |   |   |   |   `-- test_performance_superpoint.cpp
+    |   |   |   |-- unet3d
+    |   |   |   |   |-- load_files.py
+    |   |   |   |   |-- losses.py
+    |   |   |   |   |-- preprocess_dataset.py
+    |   |   |   |   |-- readme
+    |   |   |   |   |-- test_loss_all.py
+    |   |   |   |   `-- unet3d.py
+    |   |   |   `-- yolov3
+    |   |   |       |-- build.sh
+    |   |   |       |-- demo_yolov3
+    |   |   |       |-- demo_yolov3.cpp
+    |   |   |       `-- readme
+    |   |   |-- efficientdet_d2
+    |   |   |   |-- build.sh
+    |   |   |   |-- process_result.hpp
+    |   |   |   |-- readme
+    |   |   |   |-- test_accuracy_efficientdet_d2
+    |   |   |   |-- test_accuracy_efficientdet_d2.cpp
+    |   |   |   |-- test_jpeg_efficientdet_d2
+    |   |   |   |-- test_jpeg_efficientdet_d2.cpp
+    |   |   |   |-- test_performance_efficientdet_d2
+    |   |   |   |-- test_performance_efficientdet_d2.cpp
+    |   |   |   |-- test_video_efficientdet_d2
+    |   |   |   `-- test_video_efficientdet_d2.cpp
+    |   |   |-- facedetect
+    |   |   |   |-- build.sh
+    |   |   |   |-- process_result.hpp
+    |   |   |   |-- readme
+    |   |   |   |-- test_accuracy_facedetect
+    |   |   |   |-- test_accuracy_facedetect.cpp
+    |   |   |   |-- test_accuracy_facedetect_mt
+    |   |   |   |-- test_accuracy_facedetect_mt.cpp
+    |   |   |   |-- test_jpeg_facedetect
+    |   |   |   |-- test_jpeg_facedetect.cpp
+    |   |   |   |-- test_performance_facedetect
+    |   |   |   |-- test_performance_facedetect.cpp
+    |   |   |   |-- test_video_facedetect
+    |   |   |   `-- test_video_facedetect.cpp
+    |   |   |-- facefeature
+    |   |   |   |-- build.sh
+    |   |   |   |-- process_result.hpp
+    |   |   |   |-- readme
+    |   |   |   |-- test_accuracy_facefeature
+    |   |   |   |-- test_accuracy_facefeature.cpp
+    |   |   |   |-- test_accuracy_facerec_pretrain_res20
+    |   |   |   |-- test_accuracy_facerec_pretrain_res20.cpp
+    |   |   |   |-- test_jpeg_facefeature
+    |   |   |   |-- test_jpeg_facefeature.cpp
+    |   |   |   |-- test_performance_facefeature
+    |   |   |   `-- test_performance_facefeature.cpp
+    |   |   |-- facelandmark
+    |   |   |   |-- build.sh
+    |   |   |   |-- process_result.hpp
+    |   |   |   |-- readme
+    |   |   |   |-- test_accuracy_facelandmark
+    |   |   |   |-- test_accuracy_facelandmark.cpp
+    |   |   |   |-- test_accuracy_facelandmark_mt
+    |   |   |   |-- test_accuracy_facelandmark_mt.cpp
+    |   |   |   |-- test_jpeg_facelandmark
+    |   |   |   |-- test_jpeg_facelandmark.cpp
+    |   |   |   |-- test_performance_facelandmark
+    |   |   |   `-- test_performance_facelandmark.cpp
+    |   |   |-- facequality5pt
+    |   |   |   |-- build.sh
+    |   |   |   |-- process_result.hpp
+    |   |   |   |-- readme
+    |   |   |   |-- test_accuracy_facequality5pt
+    |   |   |   |-- test_accuracy_facequality5pt.cpp
+    |   |   |   |-- test_accuracy_facequality5pt_mt
+    |   |   |   |-- test_accuracy_facequality5pt_mt.cpp
+    |   |   |   |-- test_jpeg_facequality5pt
+    |   |   |   |-- test_jpeg_facequality5pt.cpp
+    |   |   |   |-- test_performance_facequality5pt
+    |   |   |   `-- test_performance_facequality5pt.cpp
+    |   |   |-- fairmot
+    |   |   |   |-- build.sh
+    |   |   |   |-- process_result.hpp
+    |   |   |   |-- readme
+    |   |   |   |-- test_accuracy_fairmot
+    |   |   |   |-- test_accuracy_fairmot.cpp
+    |   |   |   |-- test_jpeg_fairmot
+    |   |   |   |-- test_jpeg_fairmot.cpp
+    |   |   |   |-- test_performance_fairmot
+    |   |   |   |-- test_performance_fairmot.cpp
+    |   |   |   |-- test_video_fairmot
+    |   |   |   `-- test_video_fairmot.cpp
+    |   |   |-- graph_runner
+    |   |   |   |-- platenum_graph_runner
+    |   |   |   |   |-- build.sh
+    |   |   |   |   |-- platenum_graph_runner.cpp
+    |   |   |   |   `-- readme
+    |   |   |   |-- resnet_v1_50_tf_graph_runner
+    |   |   |   |   |-- readme
+    |   |   |   |   |-- resnet_v1_50_tf_graph_runner.cpp
+    |   |   |   |   `-- word_list.inc
+    |   |   |   |-- resnet_v1_50_tf_graph_runner_py
+    |   |   |   |   |-- resnet_v1_50_tf.py
+    |   |   |   |   `-- words.txt
+    |   |   |   `-- tfssd_gridanchor_nms_op_graph_runner
+    |   |   |       |-- build.sh
+    |   |   |       |-- readme
+    |   |   |       |-- ssd_mobilenet_v1_coco_tf_trt_op_b4096.xmodel
+    |   |   |       |-- ssd_mobilenet_v1_coco_tf_trt_op_vck190.xmodel
+    |   |   |       `-- tfssd_gridanchor_nms_op_graph_runner.cpp
+    |   |   |-- hourglass
+    |   |   |   |-- build.sh
+    |   |   |   |-- process_result.hpp
+    |   |   |   |-- readme
+    |   |   |   |-- test_accuracy_hourglass
+    |   |   |   |-- test_accuracy_hourglass.cpp
+    |   |   |   |-- test_jpeg_hourglass
+    |   |   |   |-- test_jpeg_hourglass.cpp
+    |   |   |   |-- test_performance_hourglass
+    |   |   |   |-- test_performance_hourglass.cpp
+    |   |   |   |-- test_video_hourglass
+    |   |   |   `-- test_video_hourglass.cpp
+    |   |   |-- lanedetect
+    |   |   |   |-- build.sh
+    |   |   |   |-- process_result.hpp
+    |   |   |   |-- readme
+    |   |   |   |-- test_accuracy_lanedetect
+    |   |   |   |-- test_accuracy_lanedetect.cpp
+    |   |   |   |-- test_jpeg_lanedetect
+    |   |   |   |-- test_jpeg_lanedetect.cpp
+    |   |   |   |-- test_performance_lanedetect
+    |   |   |   |-- test_performance_lanedetect.cpp
+    |   |   |   |-- test_video_lanedetect
+    |   |   |   `-- test_video_lanedetect.cpp
+    |   |   |-- medicaldetection
+    |   |   |   |-- build.sh
+    |   |   |   |-- process_result.hpp
+    |   |   |   |-- readme
+    |   |   |   |-- test_accuracy_medicaldetection
+    |   |   |   |-- test_accuracy_medicaldetection.cpp
+    |   |   |   |-- test_accuracy_medicaldetection_mt
+    |   |   |   |-- test_accuracy_medicaldetection_mt.cpp
+    |   |   |   |-- test_jpeg_medicaldetection
+    |   |   |   |-- test_jpeg_medicaldetection.cpp
+    |   |   |   |-- test_performance_medicaldetection
+    |   |   |   |-- test_performance_medicaldetection.cpp
+    |   |   |   |-- test_video_medicaldetection
+    |   |   |   `-- test_video_medicaldetection.cpp
+    |   |   |-- medicalsegcell
+    |   |   |   |-- build.sh
+    |   |   |   |-- process_result.hpp
+    |   |   |   |-- readme
+    |   |   |   |-- test_accuracy_medicalsegcell
+    |   |   |   |-- test_accuracy_medicalsegcell.cpp
+    |   |   |   |-- test_accuracy_medicalsegcell_mt
+    |   |   |   |-- test_accuracy_medicalsegcell_mt.cpp
+    |   |   |   |-- test_jpeg_medicalsegcell
+    |   |   |   |-- test_jpeg_medicalsegcell.cpp
+    |   |   |   |-- test_performance_medicalsegcell
+    |   |   |   |-- test_performance_medicalsegcell.cpp
+    |   |   |   |-- test_video_medicalsegcell
+    |   |   |   `-- test_video_medicalsegcell.cpp
+    |   |   |-- medicalsegmentation
+    |   |   |   |-- build.sh
+    |   |   |   |-- process_result.hpp
+    |   |   |   |-- readme
+    |   |   |   |-- test_accuracy_medicalsegmentation
+    |   |   |   |-- test_accuracy_medicalsegmentation.cpp
+    |   |   |   |-- test_accuracy_medicalsegmentation_mt
+    |   |   |   |-- test_accuracy_medicalsegmentation_mt.cpp
+    |   |   |   |-- test_jpeg_medicalsegmentation
+    |   |   |   |-- test_jpeg_medicalsegmentation.cpp
+    |   |   |   |-- test_performance_medicalsegmentation
+    |   |   |   `-- test_performance_medicalsegmentation.cpp
+    |   |   |-- monodepth2
+    |   |   |   |-- build.sh
+    |   |   |   |-- process_result.hpp
+    |   |   |   |-- readme
+    |   |   |   |-- test_accuracy_monodepth2
+    |   |   |   |-- test_accuracy_monodepth2.cpp
+    |   |   |   |-- test_jpeg_monodepth2
+    |   |   |   |-- test_jpeg_monodepth2.cpp
+    |   |   |   |-- test_performance_monodepth2
+    |   |   |   `-- test_performance_monodepth2.cpp
+    |   |   |-- movenet
+    |   |   |   |-- build.sh
+    |   |   |   |-- process_result.hpp
+    |   |   |   |-- readme
+    |   |   |   |-- test_accuracy_movenet
+    |   |   |   |-- test_accuracy_movenet.cpp
+    |   |   |   |-- test_jpeg_movenet
+    |   |   |   |-- test_jpeg_movenet.cpp
+    |   |   |   |-- test_performance_movenet
+    |   |   |   |-- test_performance_movenet.cpp
+    |   |   |   |-- test_video_movenet
+    |   |   |   `-- test_video_movenet.cpp
+    |   |   |-- multitask
+    |   |   |   |-- build.sh
+    |   |   |   |-- process_result.hpp
+    |   |   |   |-- readme
+    |   |   |   |-- test_accuracy_multitask
+    |   |   |   |-- test_accuracy_multitask.cpp
+    |   |   |   |-- test_accuracy_multitask_mt
+    |   |   |   |-- test_accuracy_multitask_mt.cpp
+    |   |   |   |-- test_jpeg_multitask
+    |   |   |   |-- test_jpeg_multitask.cpp
+    |   |   |   |-- test_performance_multitask
+    |   |   |   |-- test_performance_multitask.cpp
+    |   |   |   |-- test_video_multitask
+    |   |   |   `-- test_video_multitask.cpp
+    |   |   |-- multitaskv3
+    |   |   |   |-- build.sh
+    |   |   |   |-- process_result.hpp
+    |   |   |   |-- readme
+    |   |   |   |-- test_accuracy_multitaskv3_detection
+    |   |   |   |-- test_accuracy_multitaskv3_detection.cpp
+    |   |   |   |-- test_accuracy_multitaskv3_segmentation
+    |   |   |   |-- test_accuracy_multitaskv3_segmentation.cpp
+    |   |   |   |-- test_jpeg_multitaskv3
+    |   |   |   |-- test_jpeg_multitaskv3.cpp
+    |   |   |   |-- test_performance_multitaskv3
+    |   |   |   |-- test_performance_multitaskv3.cpp
+    |   |   |   |-- test_video_multitaskv3
+    |   |   |   `-- test_video_multitaskv3.cpp
+    |   |   |-- ocr
+    |   |   |   |-- build.sh
+    |   |   |   |-- process_result.hpp
+    |   |   |   |-- readme
+    |   |   |   |-- test_accuracy_ocr
+    |   |   |   |-- test_accuracy_ocr.cpp
+    |   |   |   |-- test_jpeg_ocr
+    |   |   |   |-- test_jpeg_ocr.cpp
+    |   |   |   |-- test_performance_ocr
+    |   |   |   `-- test_performance_ocr.cpp
+    |   |   |-- ofa_yolo
+    |   |   |   |-- build.sh
+    |   |   |   |-- process_result.hpp
+    |   |   |   |-- readme
+    |   |   |   |-- test_accuracy_ofa_yolo_mt
+    |   |   |   |-- test_accuracy_ofa_yolo_mt.cpp
+    |   |   |   |-- test_jpeg_ofa_yolo
+    |   |   |   |-- test_jpeg_ofa_yolo.cpp
+    |   |   |   |-- test_performance_ofa_yolo
+    |   |   |   |-- test_performance_ofa_yolo.cpp
+    |   |   |   |-- test_video_ofa_yolo
+    |   |   |   `-- test_video_ofa_yolo.cpp
+    |   |   |-- openpose
+    |   |   |   |-- build.sh
+    |   |   |   |-- process_result.hpp
+    |   |   |   |-- readme
+    |   |   |   |-- test_accuracy_openpose
+    |   |   |   |-- test_accuracy_openpose.cpp
+    |   |   |   |-- test_accuracy_openpose_mt
+    |   |   |   |-- test_accuracy_openpose_mt.cpp
+    |   |   |   |-- test_jpeg_openpose
+    |   |   |   |-- test_jpeg_openpose.cpp
+    |   |   |   |-- test_performance_openpose
+    |   |   |   |-- test_performance_openpose.cpp
+    |   |   |   |-- test_video_openpose
+    |   |   |   `-- test_video_openpose.cpp
+    |   |   |-- platedetect
+    |   |   |   |-- build.sh
+    |   |   |   |-- process_result.hpp
+    |   |   |   |-- readme
+    |   |   |   |-- test_accuracy_platedetect
+    |   |   |   |-- test_accuracy_platedetect.cpp
+    |   |   |   |-- test_accuracy_platedetect_mt
+    |   |   |   |-- test_accuracy_platedetect_mt.cpp
+    |   |   |   |-- test_jpeg_platedetect
+    |   |   |   |-- test_jpeg_platedetect.cpp
+    |   |   |   |-- test_performance_platedetect
+    |   |   |   |-- test_performance_platedetect.cpp
+    |   |   |   |-- test_video_platedetect
+    |   |   |   `-- test_video_platedetect.cpp
+    |   |   |-- platenum
+    |   |   |   |-- build.sh
+    |   |   |   |-- process_result.hpp
+    |   |   |   |-- readme
+    |   |   |   |-- test_accuracy_platenum
+    |   |   |   |-- test_accuracy_platenum.cpp
+    |   |   |   |-- test_accuracy_platenum_mt
+    |   |   |   |-- test_accuracy_platenum_mt.cpp
+    |   |   |   |-- test_jpeg_platenum
+    |   |   |   |-- test_jpeg_platenum.cpp
+    |   |   |   |-- test_performance_platenum
+    |   |   |   |-- test_performance_platenum.cpp
+    |   |   |   |-- test_video_platenum
+    |   |   |   `-- test_video_platenum.cpp
+    |   |   |-- pmg
+    |   |   |   |-- build.sh
+    |   |   |   |-- process_result.hpp
+    |   |   |   |-- readme
+    |   |   |   |-- test_accuracy_pmg
+    |   |   |   |-- test_accuracy_pmg.cpp
+    |   |   |   |-- test_jpeg_pmg
+    |   |   |   |-- test_jpeg_pmg.cpp
+    |   |   |   |-- test_performance_pmg
+    |   |   |   |-- test_performance_pmg.cpp
+    |   |   |   |-- test_video_pmg
+    |   |   |   `-- test_video_pmg.cpp
+    |   |   |-- pointpainting
+    |   |   |   |-- build.sh
+    |   |   |   |-- readme
+    |   |   |   |-- test_accuracy_pointpainting
+    |   |   |   |-- test_accuracy_pointpainting.cpp
+    |   |   |   |-- test_accuracy_pointpainting_nuscenes
+    |   |   |   |-- test_accuracy_pointpainting_nuscenes.cpp
+    |   |   |   |-- test_accuracy_pointpainting_seg
+    |   |   |   |-- test_accuracy_pointpainting_seg.cpp
+    |   |   |   |-- test_bin_pointpainting
+    |   |   |   |-- test_bin_pointpainting.cpp
+    |   |   |   |-- test_performance_pointpainting
+    |   |   |   `-- test_performance_pointpainting.cpp
+    |   |   |-- pointpillars
+    |   |   |   |-- build.sh
+    |   |   |   |-- readme
+    |   |   |   |-- test_accuracy_pointpillars
+    |   |   |   |-- test_accuracy_pointpillars.cpp
+    |   |   |   |-- test_bin_pointpillars
+    |   |   |   |-- test_bin_pointpillars.cpp
+    |   |   |   |-- test_performance_pointpillars
+    |   |   |   `-- test_performance_pointpillars.cpp
+    |   |   |-- pointpillars_nuscenes
+    |   |   |   |-- build.sh
+    |   |   |   |-- readme
+    |   |   |   |-- test_accuracy_pointpillars_nuscenes
+    |   |   |   |-- test_accuracy_pointpillars_nuscenes.cpp
+    |   |   |   |-- test_bin_pointpillars_nuscenes
+    |   |   |   |-- test_bin_pointpillars_nuscenes.cpp
+    |   |   |   |-- test_performance_pointpillars_nuscenes
+    |   |   |   `-- test_performance_pointpillars_nuscenes.cpp
+    |   |   |-- polypsegmentation
+    |   |   |   |-- build.sh
+    |   |   |   |-- process_result.hpp
+    |   |   |   |-- readme
+    |   |   |   |-- test_accuracy_polypsegmentation
+    |   |   |   |-- test_accuracy_polypsegmentation.cpp
+    |   |   |   |-- test_accuracy_polypsegmentation_mt
+    |   |   |   |-- test_accuracy_polypsegmentation_mt.cpp
+    |   |   |   |-- test_jpeg_polypsegmentation
+    |   |   |   |-- test_jpeg_polypsegmentation.cpp
+    |   |   |   |-- test_performance_polypsegmentation
+    |   |   |   |-- test_performance_polypsegmentation.cpp
+    |   |   |   |-- test_video_polypsegmentation
+    |   |   |   `-- test_video_polypsegmentation.cpp
+    |   |   |-- posedetect
+    |   |   |   |-- build.sh
+    |   |   |   |-- process_result.hpp
+    |   |   |   |-- readme
+    |   |   |   |-- ssd_posedetect.hpp
+    |   |   |   |-- test_accuracy_posedetect
+    |   |   |   |-- test_accuracy_posedetect.cpp
+    |   |   |   |-- test_accuracy_posedetect_mt
+    |   |   |   |-- test_accuracy_posedetect_mt.cpp
+    |   |   |   |-- test_jpeg_posedetect
+    |   |   |   |-- test_jpeg_posedetect.cpp
+    |   |   |   |-- test_jpeg_posedetect_with_ssd
+    |   |   |   |-- test_jpeg_posedetect_with_ssd.cpp
+    |   |   |   |-- test_performance_posedetect
+    |   |   |   |-- test_performance_posedetect.cpp
+    |   |   |   |-- test_video_posedetect
+    |   |   |   |-- test_video_posedetect.cpp
+    |   |   |   |-- test_video_posedetect_with_ssd
+    |   |   |   `-- test_video_posedetect_with_ssd.cpp
+    |   |   |-- rcan
+    |   |   |   |-- build.sh
+    |   |   |   |-- process_result.hpp
+    |   |   |   |-- readme
+    |   |   |   |-- test_accuracy_rcan
+    |   |   |   |-- test_accuracy_rcan.cpp
+    |   |   |   |-- test_jpeg_rcan
+    |   |   |   |-- test_jpeg_rcan.cpp
+    |   |   |   |-- test_performance_rcan
+    |   |   |   |-- test_performance_rcan.cpp
+    |   |   |   |-- test_video_rcan
+    |   |   |   `-- test_video_rcan.cpp
+    |   |   |-- refinedet
+    |   |   |   |-- build.sh
+    |   |   |   |-- process_result.hpp
+    |   |   |   |-- process_result_tf.hpp
+    |   |   |   |-- readme
+    |   |   |   |-- test_accuracy_refinedet
+    |   |   |   |-- test_accuracy_refinedet.cpp
+    |   |   |   |-- test_accuracy_refinedet_mt
+    |   |   |   |-- test_accuracy_refinedet_mt.cpp
+    |   |   |   |-- test_jpeg_refinedet
+    |   |   |   |-- test_jpeg_refinedet.cpp
+    |   |   |   |-- test_jpeg_refinedet_tf
+    |   |   |   |-- test_jpeg_refinedet_tf.cpp
+    |   |   |   |-- test_performance_refinedet
+    |   |   |   |-- test_performance_refinedet.cpp
+    |   |   |   |-- test_video_refinedet
+    |   |   |   `-- test_video_refinedet.cpp
+    |   |   |-- reid
+    |   |   |   |-- build.sh
+    |   |   |   |-- process_result.hpp
+    |   |   |   |-- readme
+    |   |   |   |-- test_accuracy_reid
+    |   |   |   |-- test_accuracy_reid.cpp
+    |   |   |   |-- test_jpeg_reid
+    |   |   |   |-- test_jpeg_reid.cpp
+    |   |   |   |-- test_performance_reid
+    |   |   |   `-- test_performance_reid.cpp
+    |   |   |-- retinaface
+    |   |   |   |-- build.sh
+    |   |   |   |-- process_result.hpp
+    |   |   |   |-- readme
+    |   |   |   |-- test_accuracy_retinaface
+    |   |   |   |-- test_accuracy_retinaface.cpp
+    |   |   |   |-- test_jpeg_retinaface
+    |   |   |   |-- test_jpeg_retinaface.cpp
+    |   |   |   |-- test_performance_retinaface
+    |   |   |   |-- test_performance_retinaface.cpp
+    |   |   |   |-- test_video_retinaface
+    |   |   |   `-- test_video_retinaface.cpp
+    |   |   |-- segmentation
+    |   |   |   |-- build.sh
+    |   |   |   |-- process_result.hpp
+    |   |   |   |-- readme
+    |   |   |   |-- test_accuracy_endov
+    |   |   |   |-- test_accuracy_endov.cpp
+    |   |   |   |-- test_accuracy_segmentation
+    |   |   |   |-- test_accuracy_segmentation.cpp
+    |   |   |   |-- test_accuracy_segmentation_mt
+    |   |   |   |-- test_accuracy_segmentation_mt.cpp
+    |   |   |   |-- test_accuracy_unet
+    |   |   |   |-- test_accuracy_unet.cpp
+    |   |   |   |-- test_jpeg_segmentation
+    |   |   |   |-- test_jpeg_segmentation.cpp
+    |   |   |   |-- test_performance_segmentation
+    |   |   |   |-- test_performance_segmentation.cpp
+    |   |   |   |-- test_video_segmentation
+    |   |   |   `-- test_video_segmentation.cpp
+    |   |   |-- solo
+    |   |   |   |-- build.sh
+    |   |   |   |-- process_result.hpp
+    |   |   |   |-- readme
+    |   |   |   |-- test_jpeg_solo
+    |   |   |   |-- test_jpeg_solo.cpp
+    |   |   |   |-- test_performance_solo
+    |   |   |   |-- test_performance_solo.cpp
+    |   |   |   |-- test_video_solo
+    |   |   |   `-- test_video_solo.cpp
+    |   |   |-- ssd
+    |   |   |   |-- build.sh
+    |   |   |   |-- process_result.hpp
+    |   |   |   |-- readme
+    |   |   |   |-- test_accuracy_mlperf_ssd_resnet34_tf
+    |   |   |   |-- test_accuracy_mlperf_ssd_resnet34_tf.cpp
+    |   |   |   |-- test_accuracy_ssd_adas_pruned_0_95
+    |   |   |   |-- test_accuracy_ssd_adas_pruned_0_95.cpp
+    |   |   |   |-- test_accuracy_ssd_mobilenet_v2
+    |   |   |   |-- test_accuracy_ssd_mobilenet_v2.cpp
+    |   |   |   |-- test_accuracy_ssd_mt
+    |   |   |   |-- test_accuracy_ssd_mt.cpp
+    |   |   |   |-- test_accuracy_ssd_pedestrian_pruned_0_97
+    |   |   |   |-- test_accuracy_ssd_pedestrian_pruned_0_97.cpp
+    |   |   |   |-- test_accuracy_ssd_traffic_pruned_0_9
+    |   |   |   |-- test_accuracy_ssd_traffic_pruned_0_9.cpp
+    |   |   |   |-- test_jpeg_ssd
+    |   |   |   |-- test_jpeg_ssd.cpp
+    |   |   |   |-- test_performance_ssd
+    |   |   |   |-- test_performance_ssd.cpp
+    |   |   |   |-- test_video_ssd
+    |   |   |   `-- test_video_ssd.cpp
+    |   |   |-- textmountain
+    |   |   |   |-- build.sh
+    |   |   |   |-- process_result.hpp
+    |   |   |   |-- readme
+    |   |   |   |-- test_accuracy_textmountain
+    |   |   |   |-- test_accuracy_textmountain.cpp
+    |   |   |   |-- test_jpeg_textmountain
+    |   |   |   |-- test_jpeg_textmountain.cpp
+    |   |   |   |-- test_performance_textmountain
+    |   |   |   `-- test_performance_textmountain.cpp
+    |   |   |-- tfssd
+    |   |   |   |-- build.sh
+    |   |   |   |-- process_result.hpp
+    |   |   |   |-- readme
+    |   |   |   |-- test_accuracy_tfssd
+    |   |   |   |-- test_accuracy_tfssd.cpp
+    |   |   |   |-- test_accuracy_tfssd_mt
+    |   |   |   |-- test_accuracy_tfssd_mt.cpp
+    |   |   |   |-- test_jpeg_tfssd
+    |   |   |   |-- test_jpeg_tfssd.cpp
+    |   |   |   |-- test_performance_tfssd
+    |   |   |   |-- test_performance_tfssd.cpp
+    |   |   |   |-- test_video_tfssd
+    |   |   |   `-- test_video_tfssd.cpp
+    |   |   |-- ultrafast
+    |   |   |   |-- build.sh
+    |   |   |   |-- process_result.hpp
+    |   |   |   |-- readme
+    |   |   |   |-- test_accuracy_ultrafast
+    |   |   |   |-- test_accuracy_ultrafast.cpp
+    |   |   |   |-- test_jpeg_ultrafast
+    |   |   |   |-- test_jpeg_ultrafast.cpp
+    |   |   |   |-- test_performance_ultrafast
+    |   |   |   `-- test_performance_ultrafast.cpp
+    |   |   |-- vehicleclassification
+    |   |   |   |-- build.sh
+    |   |   |   |-- process_result.hpp
+    |   |   |   |-- readme
+    |   |   |   |-- test_accuracy_vehicleclassification
+    |   |   |   |-- test_accuracy_vehicleclassification.cpp
+    |   |   |   |-- test_accuracy_vehicleclassification_mt
+    |   |   |   |-- test_accuracy_vehicleclassification_mt.cpp
+    |   |   |   |-- test_jpeg_vehicleclassification
+    |   |   |   |-- test_jpeg_vehicleclassification.cpp
+    |   |   |   |-- test_performance_vehicleclassification
+    |   |   |   |-- test_performance_vehicleclassification.cpp
+    |   |   |   |-- test_video_vehicleclassification
+    |   |   |   `-- test_video_vehicleclassification.cpp
+    |   |   |-- yolov2
+    |   |   |   |-- build.sh
+    |   |   |   |-- process_result.hpp
+    |   |   |   |-- readme
+    |   |   |   |-- test_accuracy_yolov2_mt
+    |   |   |   |-- test_accuracy_yolov2_mt.cpp
+    |   |   |   |-- test_jpeg_yolov2
+    |   |   |   |-- test_jpeg_yolov2.cpp
+    |   |   |   |-- test_performance_yolov2
+    |   |   |   |-- test_performance_yolov2.cpp
+    |   |   |   |-- test_video_yolov2
+    |   |   |   `-- test_video_yolov2.cpp
+    |   |   |-- yolov3
+    |   |   |   |-- build.sh
+    |   |   |   |-- process_result.hpp
+    |   |   |   |-- readme
+    |   |   |   |-- test_accuracy_tiny_yolov3_vmss
+    |   |   |   |-- test_accuracy_tiny_yolov3_vmss.cpp
+    |   |   |   |-- test_accuracy_yolov3_adas_pruned_0_9
+    |   |   |   |-- test_accuracy_yolov3_adas_pruned_0_9.cpp
+    |   |   |   |-- test_accuracy_yolov3_bdd
+    |   |   |   |-- test_accuracy_yolov3_bdd.cpp
+    |   |   |   |-- test_accuracy_yolov3_coco_416_tf2_mt
+    |   |   |   |-- test_accuracy_yolov3_coco_416_tf2_mt.cpp
+    |   |   |   |-- test_accuracy_yolov3_mt
+    |   |   |   |-- test_accuracy_yolov3_mt.cpp
+    |   |   |   |-- test_accuracy_yolov3_voc
+    |   |   |   |-- test_accuracy_yolov3_voc.cpp
+    |   |   |   |-- test_accuracy_yolov3_voc_tf
+    |   |   |   |-- test_accuracy_yolov3_voc_tf.cpp
+    |   |   |   |-- test_jpeg_yolov3
+    |   |   |   |-- test_jpeg_yolov3.cpp
+    |   |   |   |-- test_performance_yolov3
+    |   |   |   |-- test_performance_yolov3.cpp
+    |   |   |   |-- test_video_yolov3
+    |   |   |   `-- test_video_yolov3.cpp
+    |   |   |-- yolov4
+    |   |   |   |-- 000000001000.jpg
+    |   |   |   |-- 0_000000001000_result.jpg
+    |   |   |   |-- build.sh
+    |   |   |   |-- exercise2.mp4
+    |   |   |   |-- gstshark_2023-04-04_01:01:00
+    |   |   |   |   |-- datastream
+    |   |   |   |   `-- metadata
+    |   |   |   |-- process_result.hpp
+    |   |   |   |-- readme
+    |   |   |   |-- test_accuracy_yolov4_mt
+    |   |   |   |-- test_accuracy_yolov4_mt.cpp
+    |   |   |   |-- test_jpeg_yolov4
+    |   |   |   |-- test_jpeg_yolov4.cpp
+    |   |   |   |-- test_performance_yolov4
+    |   |   |   |-- test_performance_yolov4.cpp
+    |   |   |   |-- test_video_yolov4
+    |   |   |   `-- test_video_yolov4.cpp
+    |   |   |-- yolov4_tf
+    |   |   |   |-- build.sh
+    |   |   |   |-- demo.hpp
+    |   |   |   |-- exercise2.mp4
+    |   |   |   |-- gstshark_2023-04-04_01:01:00
+    |   |   |   |   |-- datastream
+    |   |   |   |   `-- metadata
+    |   |   |   |-- imags
+    |   |   |   |   |-- ppe_0001.jpg
+    |   |   |   |   |-- ppe_0015.jpg
+    |   |   |   |   `-- ppe_0042.jpg
+    |   |   |   |-- other
+    |   |   |   |   |-- process_result.hpp
+    |   |   |   |   |-- test_accuracy_yolov4_mt.cpp
+    |   |   |   |   |-- test_jpeg_yolov4.cpp
+    |   |   |   |   |-- test_performance_yolov4.cpp
+    |   |   |   |   `-- test_video_yolov4.cpp
+    |   |   |   |-- process_result.hpp
+    |   |   |   |-- readme
+    |   |   |   |-- test_jpeg_yolov4
+    |   |   |   |-- test_jpeg_yolov4.cpp
+    |   |   |   |-- test_video_yolov4
+    |   |   |   |-- test_video_yolov4.cpp
+    |   |   |   |-- yolov4_tiny_kv_ppe.prototxt
+    |   |   |   |-- yolov4_tiny_kv_ppe.prototxt~
+    |   |   |   `-- yolov4_tiny_kv_ppe.xmodel
+    |   |   |-- yolov5
+    |   |   |   |-- build.sh
+    |   |   |   |-- process_result.hpp
+    |   |   |   |-- readme
+    |   |   |   |-- test_accuracy_yolov5_mt
+    |   |   |   |-- test_accuracy_yolov5_mt.cpp
+    |   |   |   |-- test_jpeg_yolov5
+    |   |   |   |-- test_jpeg_yolov5.cpp
+    |   |   |   |-- test_performance_yolov5
+    |   |   |   |-- test_performance_yolov5.cpp
+    |   |   |   |-- test_video_yolov5
+    |   |   |   `-- test_video_yolov5.cpp
+    |   |   |-- yolov6
+    |   |   |   |-- 000000000285.jpg
+    |   |   |   |-- 0_000000000285_result.jpg
+    |   |   |   |-- build.sh
+    |   |   |   |-- process_result.hpp
+    |   |   |   |-- readme
+    |   |   |   |-- test_accuracy_yolov6_mt
+    |   |   |   |-- test_accuracy_yolov6_mt.cpp
+    |   |   |   |-- test_jpeg_yolov6
+    |   |   |   |-- test_jpeg_yolov6.cpp
+    |   |   |   |-- test_performance_yolov6
+    |   |   |   |-- test_performance_yolov6.cpp
+    |   |   |   |-- test_video_yolov6
+    |   |   |   |-- test_video_yolov6.cpp
+    |   |   |   |-- yolov6.svg
+    |   |   |   |-- yolov6m_pt.prototxt
+    |   |   |   `-- yolov6m_pt.xmodel
+    |   |   `-- yolovx
+    |   |       |-- build.sh
+    |   |       |-- process_result.hpp
+    |   |       |-- readme
+    |   |       |-- test_accuracy_yolovx_coco_mt
+    |   |       |-- test_accuracy_yolovx_coco_mt.cpp
+    |   |       |-- test_accuracy_yolovx_mt
+    |   |       |-- test_accuracy_yolovx_mt.cpp
+    |   |       |-- test_accuracy_yolovx_nano_mt.cpp
+    |   |       |-- test_jpeg_yolovx
+    |   |       |-- test_jpeg_yolovx.cpp
+    |   |       |-- test_performance_yolovx
+    |   |       |-- test_performance_yolovx.cpp
+    |   |       |-- test_video_yolovx
+    |   |       `-- test_video_yolovx.cpp
+    |   `-- samples_onnx
+    |       |-- 3DSegmentation
+    |       |   |-- 3DSegmentation_onnx.hpp
+    |       |   |-- build.sh
+    |       |   |-- readme
+    |       |   |-- test_3DSegmentation_onnx
+    |       |   |-- test_3DSegmentation_onnx.cpp
+    |       |   |-- test_accuracy_3DSegmentation_onnx
+    |       |   |-- test_accuracy_3DSegmentation_onnx.cpp
+    |       |   |-- test_performance_3DSegmentation_onnx
+    |       |   `-- test_performance_3DSegmentation_onnx.cpp
+    |       |-- face_quality
+    |       |   |-- build.sh
+    |       |   |-- face_quality_onnx.hpp
+    |       |   |-- readme
+    |       |   |-- test_accuracy_face_quality_onnx
+    |       |   |-- test_accuracy_face_quality_onnx.cpp
+    |       |   |-- test_face_quality_onnx
+    |       |   |-- test_face_quality_onnx.cpp
+    |       |   |-- test_performance_face_quality_onnx
+    |       |   `-- test_performance_face_quality_onnx.cpp
+    |       |-- inception_v3_pt
+    |       |   |-- build.sh
+    |       |   |-- inception_v3_pt_onnx.hpp
+    |       |   |-- readme
+    |       |   |-- test_accuracy_inception_v3_pt_onnx
+    |       |   |-- test_accuracy_inception_v3_pt_onnx.cpp
+    |       |   |-- test_inception_v3_pt_onnx
+    |       |   |-- test_inception_v3_pt_onnx.cpp
+    |       |   |-- test_performance_inception_v3_pt_onnx
+    |       |   |-- test_performance_inception_v3_pt_onnx.cpp
+    |       |   `-- word_list.inc
+    |       |-- movenet
+    |       |   |-- build.sh
+    |       |   |-- center_weight.inc
+    |       |   |-- movenet_onnx.hpp
+    |       |   |-- readme
+    |       |   |-- test_accuracy_movenet_onnx
+    |       |   |-- test_accuracy_movenet_onnx.cpp
+    |       |   |-- test_movenet_onnx
+    |       |   |-- test_movenet_onnx.cpp
+    |       |   |-- test_performance_movenet_onnx
+    |       |   `-- test_performance_movenet_onnx.cpp
+    |       |-- multitaskv3
+    |       |   |-- build.sh
+    |       |   |-- multitaskv3_onnx.hpp
+    |       |   |-- prior_boxes.hpp
+    |       |   |-- readme
+    |       |   |-- ssd_detector.hpp
+    |       |   |-- test_accuracy_multitaskv3_onnx
+    |       |   |-- test_accuracy_multitaskv3_onnx.cpp
+    |       |   |-- test_multitaskv3_onnx
+    |       |   |-- test_multitaskv3_onnx.cpp
+    |       |   |-- test_performance_multitaskv3_onnx
+    |       |   |-- test_performance_multitaskv3_onnx.cpp
+    |       |   `-- util.hpp
+    |       |-- rcan
+    |       |   |-- build.sh
+    |       |   |-- rcan_onnx.hpp
+    |       |   |-- readme
+    |       |   |-- test_performance_rcan_onnx
+    |       |   |-- test_performance_rcan_onnx.cpp
+    |       |   |-- test_rcan_onnx
+    |       |   `-- test_rcan_onnx.cpp
+    |       |-- reid
+    |       |   |-- build.sh
+    |       |   |-- means.inc
+    |       |   |-- readme
+    |       |   |-- reid_onnx.hpp
+    |       |   |-- test_accuracy_reid_onnx
+    |       |   |-- test_accuracy_reid_onnx.cpp
+    |       |   |-- test_performance_reid_onnx
+    |       |   |-- test_performance_reid_onnx.cpp
+    |       |   |-- test_reid_onnx
+    |       |   |-- test_reid_onnx.cpp
+    |       |   |-- vars.inc
+    |       |   `-- weights.inc
+    |       |-- resnet50_pt
+    |       |   |-- build.sh
+    |       |   |-- readme
+    |       |   |-- resnet50_pt_onnx.hpp
+    |       |   |-- test_accuracy_resnet50_pt_onnx
+    |       |   |-- test_accuracy_resnet50_pt_onnx.cpp
+    |       |   |-- test_performance_resnet50_pt_onnx
+    |       |   |-- test_performance_resnet50_pt_onnx.cpp
+    |       |   |-- test_resnet50_pt_onnx
+    |       |   |-- test_resnet50_pt_onnx.cpp
+    |       |   `-- word_list.inc
+    |       |-- segmentation
+    |       |   |-- build.sh
+    |       |   |-- readme
+    |       |   |-- segmentation_onnx.hpp
+    |       |   |-- test_accuracy_segmentation_onnx
+    |       |   |-- test_accuracy_segmentation_onnx.cpp
+    |       |   |-- test_performance_segmentation_onnx
+    |       |   |-- test_performance_segmentation_onnx.cpp
+    |       |   |-- test_segmentation_onnx
+    |       |   `-- test_segmentation_onnx.cpp
+    |       |-- textmountain
+    |       |   |-- build.sh
+    |       |   |-- readme
+    |       |   |-- test_accuracy_textmountain_onnx
+    |       |   |-- test_accuracy_textmountain_onnx.cpp
+    |       |   |-- test_performance_textmountain_onnx
+    |       |   |-- test_performance_textmountain_onnx.cpp
+    |       |   |-- test_textmountain_onnx
+    |       |   |-- test_textmountain_onnx.cpp
+    |       |   `-- textmountain_onnx.hpp
+    |       `-- vehicle_type_resnet18_pt
+    |           |-- build.sh
+    |           |-- readme
+    |           |-- test_accuracy_vehicle_type_resnet18_pt_onnx
+    |           |-- test_accuracy_vehicle_type_resnet18_pt_onnx.cpp
+    |           |-- test_performance_vehicle_type_resnet18_pt_onnx
+    |           |-- test_performance_vehicle_type_resnet18_pt_onnx.cpp
+    |           |-- test_vehicle_type_resnet18_pt_onnx
+    |           |-- test_vehicle_type_resnet18_pt_onnx.cpp
+    |           |-- vehicle_type.inc
+    |           `-- vehicle_type_resnet18_pt_onnx.hpp
+    `-- vai_runtime
+        |-- adas_detection
+        |   |-- adas_detection
+        |   |-- build.sh
+        |   |-- readme
+        |   |-- src
+        |   |   |-- main.cc
+        |   |   |-- main.cc~
+        |   |   `-- utils.h
+        |   `-- yolov4_tiny_kv_ppe.xmodel
+        |-- common
+        |   |-- common.cpp
+        |   `-- common.h
+        |-- inception_v1_mt_py
+        |   |-- inception_v1.py
+        |   |-- readme
+        |   `-- words.txt
+        |-- pose_detection
+        |   |-- build.sh
+        |   |-- pose_detection
+        |   |-- readme
+        |   `-- src
+        |       |-- main.cpp
+        |       |-- pose.cpp
+        |       |-- pose.h
+        |       |-- ssd.cpp
+        |       `-- ssd.h
+        |-- resnet50
+        |   |-- build.sh
+        |   |-- readme
+        |   |-- resnet50
+        |   |-- src
+        |   |   `-- main.cc
+        |   `-- words.txt
+        |-- resnet50_ext
+        |   |-- build.sh
+        |   |-- readme
+        |   |-- resnet50.cpp
+        |   |-- resnet50_ext
+        |   `-- word_list.inc
+        |-- resnet50_mt_py
+        |   |-- readme
+        |   |-- resnet50.py
+        |   `-- words.txt
+        |-- resnet50_pt
+        |   |-- build.sh
+        |   |-- readme
+        |   |-- resnet50_pt
+        |   |-- resnet50_pt.cpp
+        |   `-- word_list.inc
+        |-- segmentation
+        |   |-- build.sh
+        |   |-- readme
+        |   |-- segmentation
+        |   `-- src
+        |       `-- main.cc
+        |-- squeezenet_pytorch
+        |   |-- build.sh
+        |   |-- readme
+        |   |-- squeezenet_pytorch
+        |   |-- src
+        |   |   `-- main.cc
+        |   `-- words.txt
+        `-- video_analysis
+            |-- build.sh
+            |-- readme
+            |-- src
+            |   `-- main.cc
+            `-- video_analysis
+
+141 directories, 974 files
+root@xilinx-kv260-starterkit-20222:~/Vitis-AI#
+root@xilinx-kv260-starterkit-20222:~/Vitis-AI#
+root@xilinx-kv260-starterkit-20222:~/Vitis-AI# ls
+cam_py.py  cam_py.py~  cats.mp4  examples
+root@xilinx-kv260-starterkit-20222:~/Vitis-AI# cd examples/
+root@xilinx-kv260-starterkit-20222:~/Vitis-AI/examples# ls
+custom_operator  vai_library  vai_runtime
+root@xilinx-kv260-starterkit-20222:~/Vitis-AI/examples# vaitrace
+ERROR:root:Can not find excutable command
+usage: vaitrace [-h] [-c [CONFIG]] [-d] [-o [TRACESAVETO]] [-t [TIMEOUT]] [-v] [-b] [-p] [--va] [--xat] [--txt_summary] [--json_summary] [--fine_grained] ...
+
+positional arguments:
+  cmd
+
+optional arguments:
+  -h, --help        show this help message and exit
+  -c [CONFIG]       Specify the config file
+  -d                Enable debug
+  -o [TRACESAVETO]  Save report to, only available for txt summary mode
+  -t [TIMEOUT]      Tracing time limit in second, default value is 60
+  -v                Show version
+  -b                Bypass vaitrace, just run command
+  -p                Trace python application
+  --va              Generate trace data for Vitis Analyzer
+  --xat             Save raw data, for debug usage
+  --txt_summary     Display txt summary
+  --json_summary    Display json summary
+  --fine_grained    Fine grained mode
+root@xilinx-kv260-starterkit-20222:~/Vitis-AI/examples# cd vai_runtime/
+root@xilinx-kv260-starterkit-20222:~/Vitis-AI/examples/vai_runtime# ls
+adas_detection  common  inception_v1_mt_py  pose_detection  resnet50  resnet50_ext  resnet50_mt_py  resnet50_pt  segmentation  squeezenet_pytorch  video_analysis
+root@xilinx-kv260-starterkit-20222:~/Vitis-AI/examples/vai_runtime#
+root@xilinx-kv260-starterkit-20222:~/Vitis-AI/examples/vai_runtime#
+root@xilinx-kv260-starterkit-20222:~/Vitis-AI/examples/vai_runtime# cd ..
+root@xilinx-kv260-starterkit-20222:~/Vitis-AI/examples# ls
+custom_operator  vai_library  vai_runtime
+root@xilinx-kv260-starterkit-20222:~/Vitis-AI/examples# cd vai_library/
+root@xilinx-kv260-starterkit-20222:~/Vitis-AI/examples/vai_library# ls
+apps  samples  samples_onnx
+root@xilinx-kv260-starterkit-20222:~/Vitis-AI/examples/vai_library# cd apps/
+root@xilinx-kv260-starterkit-20222:~/Vitis-AI/examples/vai_library/apps# cd .
+root@xilinx-kv260-starterkit-20222:~/Vitis-AI/examples/vai_library/apps# cd ..
+root@xilinx-kv260-starterkit-20222:~/Vitis-AI/examples/vai_library# ls
+apps  samples  samples_onnx
+root@xilinx-kv260-starterkit-20222:~/Vitis-AI/examples/vai_library# cd ..
+root@xilinx-kv260-starterkit-20222:~/Vitis-AI/examples# ls
+custom_operator  vai_library  vai_runtime
+root@xilinx-kv260-starterkit-20222:~/Vitis-AI/examples# cd vai_runtime/
+root@xilinx-kv260-starterkit-20222:~/Vitis-AI/examples/vai_runtime# ls
+adas_detection  common  inception_v1_mt_py  pose_detection  resnet50  resnet50_ext  resnet50_mt_py  resnet50_pt  segmentation  squeezenet_pytorch  video_analysis
+root@xilinx-kv260-starterkit-20222:~/Vitis-AI/examples/vai_runtime# cd adas_detection/
+root@xilinx-kv260-starterkit-20222:~/Vitis-AI/examples/vai_runtime/adas_detection# ls
+adas_detection  build.sh  readme  src  yolov4_tiny_kv_ppe.xmodel
+root@xilinx-kv260-starterkit-20222:~/Vitis-AI/examples/vai_runtime/adas_detection# [  135.936747] kria-dashboard.sh[1397]: Cant find IP addr, please call /usr/bin/kria-dashboard.sh after assigning IP addr
+
+root@xilinx-kv260-starterkit-20222:~/Vitis-AI/examples/vai_runtime/adas_detection# ./adas_detection yolov4_tiny_kv_ppe.xmodel ../video_analysis/
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+F0714 05:18:13.931114  1461 serialize_v2.cpp:705] [UNILOG][FATAL][XIR_READ_PB_FAILURE][failed to read pb file] file = ../video_analysis/
+*** Check failure stack trace: ***
+Aborted
+root@xilinx-kv260-starterkit-20222:~/Vitis-AI/examples/vai_runtime/adas_detection# ls
+adas_detection  build.sh  readme  src  yolov4_tiny_kv_ppe.xmodel
+root@xilinx-kv260-starterkit-20222:~/Vitis-AI/examples/vai_runtime/adas_detection# ls ../common/
+common.cpp  common.h
+root@xilinx-kv260-starterkit-20222:~/Vitis-AI/examples/vai_runtime/adas_detection# ls ../
+adas_detection  common  inception_v1_mt_py  pose_detection  resnet50  resnet50_ext  resnet50_mt_py  resnet50_pt  segmentation  squeezenet_pytorch  video_analysis
+root@xilinx-kv260-starterkit-20222:~/Vitis-AI/examples/vai_runtime/adas_detection# cd ../video_analysis/
+root@xilinx-kv260-starterkit-20222:~/Vitis-AI/examples/vai_runtime/video_analysis# ls
+build.sh  readme  src  video_analysis
+root@xilinx-kv260-starterkit-20222:~/Vitis-AI/examples/vai_runtime/video_analysis# cd ..
+root@xilinx-kv260-starterkit-20222:~/Vitis-AI/examples/vai_runtime# ls
+adas_detection  common  inception_v1_mt_py  pose_detection  resnet50  resnet50_ext  resnet50_mt_py  resnet50_pt  segmentation  squeezenet_pytorch  video_analysis
+root@xilinx-kv260-starterkit-20222:~/Vitis-AI/examples/vai_runtime# wget https://www.xilinx.com/bin/public/openDownload?filename=vitis_ai_runtime_r3.0.0_image_video.tar.gz
+
+--2023-07-14 05:19:46--  https://www.xilinx.com/bin/public/openDownload?filename=vitis_ai_runtime_r3.0.0_image_video.tar.gz
+Resolving www.xilinx.com... failed: Temporary failure in name resolution.
+wget: unable to resolve host address 'www.xilinx.com'
+root@xilinx-kv260-starterkit-20222:~/Vitis-AI/examples/vai_runtime#
+root@xilinx-kv260-starterkit-20222:~/Vitis-AI/examples/vai_runtime# ifconfig
+eth0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 192.168.1.66  netmask 255.255.255.0  broadcast 192.168.1.255
+        inet6 fe80::20a:35ff:fe0c:27ba  prefixlen 64  scopeid 0x20<link>
+        inet6 2400:1a00:b050:338:20a:35ff:fe0c:27ba  prefixlen 64  scopeid 0x0<global>
+        ether 00:0a:35:0c:27:ba  txqueuelen 1000  (Ethernet)
+        RX packets 11  bytes 1344 (1.3 KiB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 25  bytes 2836 (2.7 KiB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+        device interrupt 38
+
+lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
+        inet 127.0.0.1  netmask 255.0.0.0
+        inet6 ::1  prefixlen 128  scopeid 0x10<host>
+        loop  txqueuelen 1000  (Local Loopback)
+        RX packets 82  bytes 6220 (6.0 KiB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 82  bytes 6220 (6.0 KiB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+root@xilinx-kv260-starterkit-20222:~/Vitis-AI/examples/vai_runtime# wget https://www.xilinx.com/bin/public/openDownload?filename=vitis_ai_runtime_r3.0.0_image_video.tar.gz
+--2023-07-14 05:20:19--  https://www.xilinx.com/bin/public/openDownload?filename=vitis_ai_runtime_r3.0.0_image_video.tar.gz
+Resolving www.xilinx.com... 23.47.239.91
+Connecting to www.xilinx.com|23.47.239.91|:443... connected.
+HTTP request sent, awaiting response... 302 Moved Temporarily
+Location: https://xilinx-ax-dl.entitlenow.com/dl/ul/2023/01/05/R210769714/vitis_ai_runtime_r3.0.0_image_video.tar.gz?hash=nkgipSDgfvWu8W1A1ooifg&expires=1689865520&filename=vitis_ai_runtime_r3.0.0_image_video.tar.gz [following]
+--2023-07-14 05:20:21--  https://xilinx-ax-dl.entitlenow.com/dl/ul/2023/01/05/R210769714/vitis_ai_runtime_r3.0.0_image_video.tar.gz?hash=nkgipSDgfvWu8W1A1ooifg&expires=1689865520&filename=vitis_ai_runtime_r3.0.0_image_video.tar.gz
+Resolving xilinx-ax-dl.entitlenow.com... 124.41.244.51
+Connecting to xilinx-ax-dl.entitlenow.com|124.41.244.51|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 47058467 (45M) [application/x-gzip]
+Saving to: 'openDownload?filename=vitis_ai_runtime_r3.0.0_image_video.tar.gz'
+
+openDownload?filename=vitis_ai_runtime_r3.0.0_image_video.tar.gz    100%[================================================================================================================================================================>]  44.88M  18.1MB/s    in 2.5s
+
+2023-07-14 05:20:25 (18.1 MB/s) - 'openDownload?filename=vitis_ai_runtime_r3.0.0_image_video.tar.gz' saved [47058467/47058467]
+
+root@xilinx-kv260-starterkit-20222:~/Vitis-AI/examples/vai_runtime# ls
+adas_detection  common  inception_v1_mt_py  openDownload?filename=vitis_ai_runtime_r3.0.0_image_video.tar.gz  pose_detection  resnet50  resnet50_ext  resnet50_mt_py  resnet50_pt  segmentation  squeezenet_pytorch  video_analysis
+root@xilinx-kv260-starterkit-20222:~/Vitis-AI/examples/vai_runtime# mv openDownload\?filename\=vitis_ai_runtime_r3.0.0_image_video.tar.gz vitis_ai_runtime_r3.0.0_image_video/tar.gz
+mv: cannot move 'openDownload?filename=vitis_ai_runtime_r3.0.0_image_video.tar.gz' to 'vitis_ai_runtime_r3.0.0_image_video/tar.gz': No such file or directory
+root@xilinx-kv260-starterkit-20222:~/Vitis-AI/examples/vai_runtime# mv openDownload\?filename\=vitis_ai_runtime_r3.0.0_image_video.tar.gz vitis_ai_runtime_r3.0.0_image_video.tar.gz
+root@xilinx-kv260-starterkit-20222:~/Vitis-AI/examples/vai_runtime# ls
+adas_detection  common  inception_v1_mt_py  pose_detection  resnet50  resnet50_ext  resnet50_mt_py  resnet50_pt  segmentation  squeezenet_pytorch  video_analysis  vitis_ai_runtime_r3.0.0_image_video.tar.gz
+root@xilinx-kv260-starterkit-20222:~/Vitis-AI/examples/vai_runtime# tar -xvzf vitis_ai_runtime_r3.0.0_image_video.tar.gz vitis_ai_runtime_image_video
+tar: vitis_ai_runtime_image_video: Not found in archive
+tar: Exiting with failure status due to previous errors
+root@xilinx-kv260-starterkit-20222:~/Vitis-AI/examples/vai_runtime# tar
+tar: You must specify one of the '-Acdtrux', '--delete' or '--test-label' options
+Try 'tar --help' or 'tar --usage' for more information.
+root@xilinx-kv260-starterkit-20222:~/Vitis-AI/examples/vai_runtime# tar -xzf vitis_ai_runtime_r3.0.0_image_video.tar.gz vitis_ai_runtime_image_video
+tar: vitis_ai_runtime_image_video: Not found in archive
+tar: Exiting with failure status due to previous errors
+root@xilinx-kv260-starterkit-20222:~/Vitis-AI/examples/vai_runtime# ls
+adas_detection  common  inception_v1_mt_py  pose_detection  resnet50  resnet50_ext  resnet50_mt_py  resnet50_pt  segmentation  squeezenet_pytorch  video_analysis  vitis_ai_runtime_r3.0.0_image_video.tar.gz
+root@xilinx-kv260-starterkit-20222:~/Vitis-AI/examples/vai_runtime# tar -xzvf vitis_ai_runtime_r3.0.0_image_video.tar.gz image_video
+tar: image_video: Not found in archive
+tar: Exiting with failure status due to previous errors
+root@xilinx-kv260-starterkit-20222:~/Vitis-AI/examples/vai_runtime# tar -xzvf vitis_ai_runtime_r3.0.0_image_video.tar.gz -C image_video
+tar: image_video: Cannot open: No such file or directory
+tar: Error is not recoverable: exiting now
+root@xilinx-kv260-starterkit-20222:~/Vitis-AI/examples/vai_runtime# tar -xzvf vitis_ai_runtime_r3.0.0_image_video.tar.gz
+./adas_detection/
+./adas_detection/video/
+./adas_detection/video/adas.avi
+./adas_detection/video/adas.webm
+./images/
+./images/001.jpg
+./pose_detection/
+./pose_detection/video/
+./pose_detection/video/pose.webm
+./pose_detection/video/pose.mp4
+./segmentation/
+./segmentation/video/
+./segmentation/video/traffic.mp4
+./segmentation/video/traffic.webm
+./video_analysis/
+./video_analysis/video/
+./video_analysis/video/structure.webm
+./video_analysis/video/structure.mp4
+root@xilinx-kv260-starterkit-20222:~/Vitis-AI/examples/vai_runtime# ls
+adas_detection  common  images  inception_v1_mt_py  pose_detection  resnet50  resnet50_ext  resnet50_mt_py  resnet50_pt  segmentation  squeezenet_pytorch  video_analysis  vitis_ai_runtime_r3.0.0_image_video.tar.gz
+root@xilinx-kv260-starterkit-20222:~/Vitis-AI/examples/vai_runtime# cd images/
+root@xilinx-kv260-starterkit-20222:~/Vitis-AI/examples/vai_runtime/images# ls
+001.jpg
+root@xilinx-kv260-starterkit-20222:~/Vitis-AI/examples/vai_runtime/images# cd ..
+root@xilinx-kv260-starterkit-20222:~/Vitis-AI/examples/vai_runtime#
+root@xilinx-kv260-starterkit-20222:~/Vitis-AI/examples/vai_runtime#
+root@xilinx-kv260-starterkit-20222:~/Vitis-AI/examples/vai_runtime# ls
+adas_detection  common  images  inception_v1_mt_py  pose_detection  resnet50  resnet50_ext  resnet50_mt_py  resnet50_pt  segmentation  squeezenet_pytorch  video_analysis  vitis_ai_runtime_r3.0.0_image_video.tar.gz
+root@xilinx-kv260-starterkit-20222:~/Vitis-AI/examples/vai_runtime# cd adas_detection/
+root@xilinx-kv260-starterkit-20222:~/Vitis-AI/examples/vai_runtime/adas_detection# ls
+adas_detection  build.sh  readme  src  video  yolov4_tiny_kv_ppe.xmodel
+root@xilinx-kv260-starterkit-20222:~/Vitis-AI/examples/vai_runtime/adas_detection# ./adas_detection yolov4_tiny_kv_ppe.xmodel ./video/adas.webm
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+F0719 23:09:19.417860  1834 serialize_v2.cpp:705] [UNILOG][FATAL][XIR_READ_PB_FAILURE][failed to read pb file] file = ./video/adas.webm
+*** Check failure stack trace: ***
+Aborted
+root@xilinx-kv260-starterkit-20222:~/Vitis-AI/examples/vai_runtime/adas_detection# ./adas_detection yolov4_tiny_kv_ppe.xmodel ./video/adas.avi
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+F0719 23:09:30.650799  1847 serialize_v2.cpp:705] [UNILOG][FATAL][XIR_READ_PB_FAILURE][failed to read pb file] file = ./video/adas.avi
+*** Check failure stack trace: ***
+Aborted
+root@xilinx-kv260-starterkit-20222:~/Vitis-AI/examples/vai_runtime/adas_detection# sudo
+usage: sudo -h | -K | -k | -V
+usage: sudo -v [-ABknS] [-g group] [-h host] [-p prompt] [-u user]
+usage: sudo -l [-ABknS] [-g group] [-h host] [-p prompt] [-U user] [-u user] [command]
+usage: sudo [-ABbEHknPS] [-C num] [-D directory] [-g group] [-h host] [-p prompt] [-R directory] [-T timeout] [-u user] [VAR=value] [-i|-s] [<command>]
+usage: sudo -e [-ABknS] [-C num] [-D directory] [-g group] [-h host] [-p prompt] [-R directory] [-T timeout] [-u user] file ...
+root@xilinx-kv260-starterkit-20222:~/Vitis-AI/examples/vai_runtime/adas_detection# su
+root@xilinx-kv260-starterkit-20222:~/Vitis-AI/examples/vai_runtime/adas_detection# sudo su
+root@xilinx-kv260-starterkit-20222:~/Vitis-AI/examples/vai_runtime/adas_detection# ls
+adas_detection  build.sh  readme  src  video  yolov4_tiny_kv_ppe.xmodel
+root@xilinx-kv260-starterkit-20222:~/Vitis-AI/examples/vai_runtime/adas_detection# ./adas_detection ./yolov4_tiny_kv_ppe.xmodel ./video/adas.avi
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+F0719 23:10:05.992295  1885 serialize_v2.cpp:705] [UNILOG][FATAL][XIR_READ_PB_FAILURE][failed to read pb file] file = ./video/adas.avi
+*** Check failure stack trace: ***
+Aborted
+root@xilinx-kv260-starterkit-20222:~/Vitis-AI/examples/vai_runtime/adas_detection# ./adas_detection ./yolov4_tiny_kv_ppe.xmodel
+Usage of ADAS detection: ./adas_detection <video_file> <model_file>
+root@xilinx-kv260-starterkit-20222:~/Vitis-AI/examples/vai_runtime/adas_detection# ./adas_detection ./video/adas.avi ./yolov4_tiny_kv_ppe.xmodel
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I0719 23:10:39.128508  1915 main.cc:394] create running for subgraph: subgraph_concatenate/concat
+inputCnt 1
+outputCnt 2
+adas_detection: /home/root/Vitis-AI/examples/vai_runtime/adas_detection/../common/common.cpp:80: int find_tensor(std::vector<const xir::Tensor*>, const string&): Assertion `ret != -1' failed.
+Aborted
+root@xilinx-kv260-starterkit-20222:~/Vitis-AI/examples/vai_runtime/adas_detection# ./adas_detection ./video/adas.webm yolov4_tiny_kv_ppe.xmodel
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I0719 23:11:01.376587  1936 main.cc:394] create running for subgraph: subgraph_concatenate/concat
+inputCnt 1
+outputCnt 2
+adas_detection: /home/root/Vitis-AI/examples/vai_runtime/adas_detection/../common/common.cpp:80: int find_tensor(std::vector<const xir::Tensor*>, const string&): Assertion `ret != -1' failed.
+Aborted
+root@xilinx-kv260-starterkit-20222:~/Vitis-AI/examples/vai_runtime/adas_detection# cd ..
+root@xilinx-kv260-starterkit-20222:~/Vitis-AI/examples/vai_runtime# ls
+adas_detection  common  images  inception_v1_mt_py  pose_detection  resnet50  resnet50_ext  resnet50_mt_py  resnet50_pt  segmentation  squeezenet_pytorch  video_analysis  vitis_ai_runtime_r3.0.0_image_video.tar.gz
+root@xilinx-kv260-starterkit-20222:~/Vitis-AI/examples/vai_runtime# cd resnet50_pt/
+root@xilinx-kv260-starterkit-20222:~/Vitis-AI/examples/vai_runtime/resnet50_pt# ls
+build.sh  readme  resnet50_pt  resnet50_pt.cpp  word_list.inc
+root@xilinx-kv260-starterkit-20222:~/Vitis-AI/examples/vai_runtime/resnet50_pt# ./resnet50_pt /usr/share/vitis_ai_library/models/resnet50/resnet50.xmodel
+usage: ./resnet50_pt <resnet50.xmodel> sample_image [sample_image ...]
+root@xilinx-kv260-starterkit-20222:~/Vitis-AI/examples/vai_runtime/resnet50_pt# ./resnet50 /usr/share/vitis_ai_library/models/resnet50/resnet50.xmodel
+sh: ./resnet50: No such file or directory
+root@xilinx-kv260-starterkit-20222:~/Vitis-AI/examples/vai_runtime/resnet50_pt# ../resnet50 /usr/share/vitis_ai_library/models/resnet50/resnet50.xmodel
+sh: ../resnet50: Is a directory
+root@xilinx-kv260-starterkit-20222:~/Vitis-AI/examples/vai_runtime/resnet50_pt# ../resnet50 /usr/share/vitis_ai_library/models/resnet50/resnet50.xmodel
+root@xilinx-kv260-starterkit-20222:~/Vitis-AI/examples/vai_runtime/resnet50_pt# cd ..
+root@xilinx-kv260-starterkit-20222:~/Vitis-AI/examples/vai_runtime# ls
+adas_detection  common  images  inception_v1_mt_py  pose_detection  resnet50  resnet50_ext  resnet50_mt_py  resnet50_pt  segmentation  squeezenet_pytorch  video_analysis  vitis_ai_runtime_r3.0.0_image_video.tar.gz
+root@xilinx-kv260-starterkit-20222:~/Vitis-AI/examples/vai_runtime# ./resnet50 /usr/share/vitis_ai_library/models/resnet50/resnet50.xmodel
+sh: ./resnet50: Is a directory
+root@xilinx-kv260-starterkit-20222:~/Vitis-AI/examples/vai_runtime# cd resnet50
+root@xilinx-kv260-starterkit-20222:~/Vitis-AI/examples/vai_runtime/resnet50# ls
+build.sh  readme  resnet50  src  words.txt
+root@xilinx-kv260-starterkit-20222:~/Vitis-AI/examples/vai_runtime/resnet50# ./resnet50 /usr/share/vitis_ai_library/models/resnet50/resnet50.xmodel
+WARNING: Logging before InitGoogleLogging() is written to STDERR
+I0719 23:13:34.615511  2072 main.cc:292] create running for subgraph: subgraph_conv1
+Jul 14 05:28:34 xilinx-kv260-starterkit-20222 kernel: [drm] ERT_EXEC_WRITE is obsoleted, use ERT_START_KEY_VAL
+
+Image : 001.jpg
+top[0] prob = 0.982662  name = brain coral
+top[1] prob = 0.008502  name = coral reef
+top[2] prob = 0.006621  name = jackfruit, jak, jack
+top[3] prob = 0.000543  name = puffer, pufferfish, blowfish, globefish
+top[4] prob = 0.000330  name = eel
+terminate called after throwing an instance of 'cv::Exception'
+  what():  OpenCV(4.5.2) /usr/src/debug/opencv/4.5.2-r0/git/modules/highgui/src/window_gtk.cpp:624: error: (-2:Unspecified error) Can't initialize GTK backend in function 'cvInitSystem'
+
+Aborted
+root@xilinx-kv260-starterkit-20222:~/Vitis-AI/examples/vai_runtime/resnet50# cd ..
+root@xilinx-kv260-starterkit-20222:~/Vitis-AI/examples/vai_runtime# ls
+adas_detection  common  images  inception_v1_mt_py  pose_detection  resnet50  resnet50_ext  resnet50_mt_py  resnet50_pt  segmentation  squeezenet_pytorch  video_analysis  vitis_ai_runtime_r3.0.0_image_video.tar.gz
+root@xilinx-kv260-starterkit-20222:~/Vitis-AI/examples/vai_runtime# cd resnet50_pt/
+root@xilinx-kv260-starterkit-20222:~/Vitis-AI/examples/vai_runtime/resnet50_pt# ls
+build.sh  readme  resnet50_pt  resnet50_pt.cpp  word_list.inc
+root@xilinx-kv260-starterkit-20222:~/Vitis-AI/examples/vai_runtime/resnet50_pt# ./resnet50 /usr/share/vitis_ai_library/models/resnet50_pt/
+md5sum.txt            meta.json             resnet50_pt.prototxt  resnet50_pt.xmodel
+root@xilinx-kv260-starterkit-20222:~/Vitis-AI/examples/vai_runtime/resnet50_pt# ./resnet50 /usr/share/vitis_ai_library/models/resnet50_pt/
+md5sum.txt            meta.json             resnet50_pt.prototxt  resnet50_pt.xmodel
+root@xilinx-kv260-starterkit-20222:~/Vitis-AI/examples/vai_runtime/resnet50_pt# ./resnet50 /usr/share/vitis_ai_library/models/resnet50_pt/resnet50_pt.xmodel
+sh: ./resnet50: No such file or directory
+root@xilinx-kv260-starterkit-20222:~/Vitis-AI/examples/vai_runtime/resnet50_pt# ./resnet50 /usr/share/vitis_ai_library/models/resnet50_pt/resnet50_pt.xmodel
+
+
+
+
+
+root@xilinx-kv260-starterkit-20222:~/Vitis-AI/examples/vai_runtime/resnet50_pt# ls
+build.sh  readme  resnet50_pt  resnet50_pt.cpp  word_list.inc
+root@xilinx-kv260-starterkit-20222:~/Vitis-AI/examples/vai_runtime/resnet50_pt#
+root@xilinx-kv260-starterkit-20222:~/Vitis-AI/examples/vai_runtime/resnet50_pt#
+root@xilinx-kv260-starterkit-20222:~/Vitis-AI/examples/vai_runtime/resnet50_pt#
+root@xilinx-kv260-starterkit-20222:~/Vitis-AI/examples/vai_runtime/resnet50_pt# ./resnet50 /usr/share/vitis_ai_library/models/resnet50_pt/resnet50_pt.xmodel
+sh: ./resnet50: No such file or directory
+root@xilinx-kv260-starterkit-20222:~/Vitis-AI/examples/vai_runtime/resnet50_pt# ls
+build.sh  readme  resnet50_pt  resnet50_pt.cpp  word_list.inc
+root@xilinx-kv260-starterkit-20222:~/Vitis-AI/examples/vai_runtime/resnet50_pt# ./resnet50_pt /usr/share/vitis_ai_library/models/resnet50_pt/resnet50_pt.xmodel
+usage: ./resnet50_pt <resnet50.xmodel> sample_image [sample_image ...]
+root@xilinx-kv260-starterkit-20222:~/Vitis-AI/examples/vai_runtime/resnet50_pt# ./resnet50_pt /usr/share/vitis_ai_library/models/resnet50_pt/resnet50_pt.xmodel ../images/001.jpg
+score[109]  =  0.99577      text: brain coral,
+score[973]  =  0.00192229   text: coral reef,
+score[5]    =  0.00116593   text: electric ray, crampfish, numbfish, torpedo,
+score[392]  =  0.000202608  text: rock beauty, Holocanthus tricolor,
+score[329]  =  0.000202608  text: sea cucumber, holothurian,
+
+root@xilinx-kv260-starterkit-20222:~/Vitis-AI/examples/vai_runtime/resnet50_pt#
+
+
