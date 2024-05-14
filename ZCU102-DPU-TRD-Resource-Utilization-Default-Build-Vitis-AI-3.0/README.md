@@ -1,8 +1,7 @@
 # ZCU102 DPU TRD - VIVADO Flow (Vitis AI 3.0) Resource Utilization Reports
 
-## This Repository is generated project from "ZCU102-DPU-TRD (Vitis AI 3.0) and VIVADO Flow".
-
-
+**This Repository is generated project from "ZCU102-DPU-TRD (Vitis AI 3.0) and VIVADO Flow"**
+More details of DPU-TRD VIVADO Flow can be found at: ![Zynq UltraScale＋ MPSoC DPU TRD (Vitis AI 3.0)](https://github.com/Xilinx/Vitis-AI/blob/3.0/dpu/ref_design_docs/README_DPUCZ_Vivado.md)
 
 
 ## Resource Utilization Report Summary

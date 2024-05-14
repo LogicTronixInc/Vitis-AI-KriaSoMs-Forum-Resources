@@ -1,4 +1,4 @@
-# Vitis-AI-Forum-2024-Private
+# Vitis-AI and Kria SoMs Forum Resources
 This repo consists of Vitis AI resources for Forum including boot log, test reports and LogicTronix replies over the forum!
 
 ## General Hierarchy of Resources over this repo
