@@ -6,11 +6,11 @@
 
 
 ## Resource Utilization Report Summary
-![Resource-Utilization-Summary](https://github.com/LogicTronixInc/Vitis-AI-KriaSoMs-Forum-Resources/blob/master/ZCU102-DPU-TRD-Resource-Utilization-Default-Build-Vitis-AI-3.0/Images/final-utilization-report-Screenshot.png) 
+![Resource-Utilization-Summary](https://github.com/LogicTronixInc/Vitis-AI-KriaSoMs-Forum-Resources/tree/main/ZCU102-DPU-TRD-Resource-Utilization-Default-Build-Vitis-AI-3.0/Images/final-utilization-report-Screenshot.png) 
 
 \
 Following summary table is on "IP-wise" summary of resource utilization generated after implementation of design/project:
-![Resource-Utilization-IP-Wise-Summary](https://github.com/LogicTronixInc/Vitis-AI-KriaSoMs-Forum-Resources/blob/master/ZCU102-DPU-TRD-Resource-Utilization-Default-Build-Vitis-AI-3.0/Images/final-ip-wise-report-Screenshot.png) 
+![Resource-Utilization-IP-Wise-Summary](https://github.com/LogicTronixInc/Vitis-AI-KriaSoMs-Forum-Resources/tree/main/ZCU102-DPU-TRD-Resource-Utilization-Default-Build-Vitis-AI-3.0/Images/final-ip-wise-report-Screenshot.png) 
 
 
 **For more details of resource utilization can be found at "resource-utilization-table-by-vivado.xlsx" file attached here in the repo!**
