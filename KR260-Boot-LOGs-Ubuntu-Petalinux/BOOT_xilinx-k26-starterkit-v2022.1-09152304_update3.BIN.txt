@@ -1,0 +1,3 @@
+
+
+Download BOOT_xilinx-k26-starterkit-v2022.1-09152304_update3.BIN from Kria SoMs Wiki!
